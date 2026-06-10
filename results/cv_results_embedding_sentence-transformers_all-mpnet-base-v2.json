@@ -1,0 +1,267 @@
+[
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "lr",
+    "fold": 0,
+    "accuracy": 0.6764705882352942,
+    "precision": 0.6764705882352942,
+    "recall": 0.6770833333333333,
+    "f1": 0.6761904761904762
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "lr",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7886029411764706,
+    "recall": 0.7886029411764706,
+    "f1": 0.7878787878787878
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "lr",
+    "fold": 2,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.7362637362637363,
+    "recall": 0.6580882352941176,
+    "f1": 0.6329625884732053
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "lr",
+    "fold": 3,
+    "accuracy": 0.6060606060606061,
+    "precision": 0.625,
+    "recall": 0.5992647058823529,
+    "f1": 0.5814634146341464
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "lr",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7255639097744361,
+    "recall": 0.7222222222222222,
+    "f1": 0.723205964585275
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "svc",
+    "fold": 0,
+    "accuracy": 0.7058823529411765,
+    "precision": 0.7083333333333333,
+    "recall": 0.7083333333333333,
+    "f1": 0.7058823529411765
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "svc",
+    "fold": 1,
+    "accuracy": 0.8181818181818182,
+    "precision": 0.8222222222222222,
+    "recall": 0.8198529411764706,
+    "f1": 0.8180147058823529
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "svc",
+    "fold": 2,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.7362637362637363,
+    "recall": 0.6580882352941176,
+    "f1": 0.6329625884732053
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "svc",
+    "fold": 3,
+    "accuracy": 0.6060606060606061,
+    "precision": 0.625,
+    "recall": 0.5992647058823529,
+    "f1": 0.5814634146341464
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "svc",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7261029411764706,
+    "recall": 0.7277777777777777,
+    "f1": 0.7262672811059908
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 0,
+    "accuracy": 0.6764705882352942,
+    "precision": 0.6754385964912281,
+    "recall": 0.6736111111111112,
+    "f1": 0.6739319965126417
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7969924812030075,
+    "recall": 0.7904411764705883,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 2,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.7013888888888888,
+    "recall": 0.6599264705882353,
+    "f1": 0.6458536585365854
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 3,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.6428571428571428,
+    "recall": 0.6323529411764706,
+    "f1": 0.6278195488721805
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 4,
+    "accuracy": 0.7575757575757576,
+    "precision": 0.7591911764705883,
+    "recall": 0.7611111111111111,
+    "f1": 0.7573529411764706
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "lr",
+    "fold": 0,
+    "rmse": 6.755259011786025,
+    "mae": 4.96388578414917,
+    "pearson_r": 0.47073701846532895
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "lr",
+    "fold": 1,
+    "rmse": 7.790251521166695,
+    "mae": 6.851081038966323,
+    "pearson_r": 0.46175996611882986
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "lr",
+    "fold": 2,
+    "rmse": 7.7526071621858605,
+    "mae": 5.859883915294301,
+    "pearson_r": 0.4064428765655019
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "lr",
+    "fold": 3,
+    "rmse": 7.347358986990925,
+    "mae": 5.754251566800204,
+    "pearson_r": 0.35524183528356706
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "lr",
+    "fold": 4,
+    "rmse": 7.129958017204448,
+    "mae": 5.878476749766957,
+    "pearson_r": 0.29604112873679417
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 0,
+    "rmse": 5.927719750904829,
+    "mae": 4.90368579415714,
+    "pearson_r": 0.530603297374646
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 1,
+    "rmse": 6.5559215075626796,
+    "mae": 5.804490060517282,
+    "pearson_r": 0.42978518825001405
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 2,
+    "rmse": 6.326728205033234,
+    "mae": 4.9875413143273555,
+    "pearson_r": 0.4173745246892232
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 3,
+    "rmse": 6.188418691327233,
+    "mae": 5.534182115034624,
+    "pearson_r": 0.4326517180681156
+  },
+  {
+    "baseline": "embedding_sentence-transformers_all-mpnet-base-v2",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 4,
+    "rmse": 6.531948930084889,
+    "mae": 5.8835524356726445,
+    "pearson_r": 0.44126118371379364
+  }
+]

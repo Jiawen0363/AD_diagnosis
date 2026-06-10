@@ -1,0 +1,242 @@
+[
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "lr",
+    "fold": 0,
+    "accuracy": 0.7647058823529411,
+    "precision": 0.7785714285714285,
+    "recall": 0.7708333333333333,
+    "f1": 0.7638888888888888
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "lr",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.788888888888889,
+    "recall": 0.7867647058823529,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "lr",
+    "fold": 2,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.8181818181818181,
+    "recall": 0.7830882352941176,
+    "f1": 0.7806267806267806
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "lr",
+    "fold": 3,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7277777777777777,
+    "recall": 0.7261029411764706,
+    "f1": 0.7262672811059908
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "lr",
+    "fold": 4,
+    "accuracy": 0.7575757575757576,
+    "precision": 0.7555555555555555,
+    "recall": 0.7555555555555555,
+    "f1": 0.7555555555555555
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "svc",
+    "fold": 0,
+    "accuracy": 0.7058823529411765,
+    "precision": 0.7083333333333333,
+    "recall": 0.7083333333333333,
+    "f1": 0.7058823529411765
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "svc",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.788888888888889,
+    "recall": 0.7867647058823529,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "svc",
+    "fold": 2,
+    "accuracy": 0.8181818181818182,
+    "precision": 0.8233082706766917,
+    "recall": 0.8161764705882353,
+    "f1": 0.8166666666666667
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "svc",
+    "fold": 3,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7,
+    "recall": 0.6985294117647058,
+    "f1": 0.6966911764705883
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "svc",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7261029411764706,
+    "recall": 0.7277777777777777,
+    "f1": 0.7262672811059908
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 0,
+    "accuracy": 0.7647058823529411,
+    "precision": 0.7673611111111112,
+    "recall": 0.7673611111111112,
+    "f1": 0.7647058823529411
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.788888888888889,
+    "recall": 0.7867647058823529,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 2,
+    "accuracy": 0.8484848484848485,
+    "precision": 0.8500000000000001,
+    "recall": 0.8474264705882353,
+    "f1": 0.847926267281106
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 3,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.6672794117647058,
+    "recall": 0.6672794117647058,
+    "f1": 0.6666666666666666
+  },
+  {
+    "baseline": "tfidf",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7261029411764706,
+    "recall": 0.7277777777777777,
+    "f1": 0.7262672811059908
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "lr",
+    "fold": 0,
+    "rmse": 5.426500600659612,
+    "mae": 4.12248618773644,
+    "pearson_r": 0.6109011019236962
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "lr",
+    "fold": 1,
+    "rmse": 5.703536005306735,
+    "mae": 4.508159457049263,
+    "pearson_r": 0.6350254344086766
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "lr",
+    "fold": 2,
+    "rmse": 6.5061619576595335,
+    "mae": 5.277533999281853,
+    "pearson_r": 0.4460583474321942
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "lr",
+    "fold": 3,
+    "rmse": 5.659209817991335,
+    "mae": 4.425230539092383,
+    "pearson_r": 0.5509262658790143
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "lr",
+    "fold": 4,
+    "rmse": 6.176991670714753,
+    "mae": 5.099967322849267,
+    "pearson_r": 0.5192427615867472
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 0,
+    "rmse": 5.2263131333016855,
+    "mae": 4.297955740567534,
+    "pearson_r": 0.7018693965264502
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 1,
+    "rmse": 5.677133494249658,
+    "mae": 4.581402380770439,
+    "pearson_r": 0.6632832719562382
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 2,
+    "rmse": 5.882774498147356,
+    "mae": 4.7504920007557745,
+    "pearson_r": 0.5508566753033888
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 3,
+    "rmse": 5.682913445730192,
+    "mae": 4.831844641411582,
+    "pearson_r": 0.5689519040530844
+  },
+  {
+    "baseline": "tfidf",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 4,
+    "rmse": 5.944479487965811,
+    "mae": 5.226600815193191,
+    "pearson_r": 0.5863176982148801
+  }
+]

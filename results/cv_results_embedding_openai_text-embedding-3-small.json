@@ -1,0 +1,317 @@
+[
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "lr",
+    "fold": 0,
+    "accuracy": 0.7647058823529411,
+    "precision": 0.7678571428571428,
+    "recall": 0.7604166666666667,
+    "f1": 0.7614035087719297
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "lr",
+    "fold": 1,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7096153846153846,
+    "recall": 0.7003676470588236,
+    "f1": 0.6944444444444444
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "lr",
+    "fold": 2,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.675,
+    "recall": 0.6286764705882353,
+    "f1": 0.6071428571428572
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "lr",
+    "fold": 3,
+    "accuracy": 0.6060606060606061,
+    "precision": 0.6076923076923078,
+    "recall": 0.6029411764705883,
+    "f1": 0.6001863932898416
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "lr",
+    "fold": 4,
+    "accuracy": 0.7575757575757576,
+    "precision": 0.7555555555555555,
+    "recall": 0.7555555555555555,
+    "f1": 0.7555555555555555
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 0,
+    "accuracy": 0.9117647058823529,
+    "precision": 0.9117647058823529,
+    "recall": 0.9131944444444444,
+    "f1": 0.9116883116883117
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7969924812030075,
+    "recall": 0.7904411764705883,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 2,
+    "accuracy": 0.7575757575757576,
+    "precision": 0.7738095238095238,
+    "recall": 0.7536764705882353,
+    "f1": 0.7518796992481203
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 3,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.637218045112782,
+    "recall": 0.6341911764705883,
+    "f1": 0.6333333333333333
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7480769230769231,
+    "recall": 0.7388888888888889,
+    "f1": 0.7262672811059908
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "rf",
+    "fold": 0,
+    "accuracy": 0.7352941176470589,
+    "precision": 0.7352941176470589,
+    "recall": 0.7361111111111112,
+    "f1": 0.7350649350649351
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "rf",
+    "fold": 1,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7272727272727273,
+    "recall": 0.7022058823529411,
+    "f1": 0.6898496240601504
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "rf",
+    "fold": 2,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7260869565217392,
+    "recall": 0.6911764705882353,
+    "f1": 0.6826923076923077
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "rf",
+    "fold": 3,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.637218045112782,
+    "recall": 0.6341911764705883,
+    "f1": 0.6333333333333333
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "rf",
+    "fold": 4,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7333333333333334,
+    "recall": 0.7333333333333334,
+    "f1": 0.7272727272727273
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 0,
+    "rmse": 5.638360530314837,
+    "mae": 4.561018719392664,
+    "pearson_r": 0.620926492123016
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 1,
+    "rmse": 5.993070888860418,
+    "mae": 5.104114070083156,
+    "pearson_r": 0.605916095452135
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 2,
+    "rmse": 6.250212300149548,
+    "mae": 5.0650976354425605,
+    "pearson_r": 0.459736888980754
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 3,
+    "rmse": 6.017392492554002,
+    "mae": 5.37456142541134,
+    "pearson_r": 0.5002152362304427
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 4,
+    "rmse": 5.900402323950238,
+    "mae": 5.368739214810458,
+    "pearson_r": 0.6737236226393151
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "svr",
+    "fold": 0,
+    "rmse": 6.731999276069055,
+    "mae": 5.065122672754411,
+    "pearson_r": 0.5502920758651441
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "svr",
+    "fold": 1,
+    "rmse": 7.565549959010384,
+    "mae": 5.871851344458942,
+    "pearson_r": 0.49500236115384855
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "svr",
+    "fold": 2,
+    "rmse": 7.799144570414322,
+    "mae": 6.0634044069878525,
+    "pearson_r": 0.5535633969237956
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "svr",
+    "fold": 3,
+    "rmse": 6.408383654398596,
+    "mae": 5.509892061284168,
+    "pearson_r": 0.40801446395375923
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "svr",
+    "fold": 4,
+    "rmse": 7.1037199215939335,
+    "mae": 5.727808021699808,
+    "pearson_r": 0.4005484688524211
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "rfr",
+    "fold": 0,
+    "rmse": 6.005581658659179,
+    "mae": 4.984705882352941,
+    "pearson_r": 0.5477364483385198
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "rfr",
+    "fold": 1,
+    "rmse": 6.257274331576494,
+    "mae": 5.396424242424242,
+    "pearson_r": 0.5731233587684406
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "rfr",
+    "fold": 2,
+    "rmse": 5.873883027281171,
+    "mae": 4.877454545454546,
+    "pearson_r": 0.6086643859836353
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "rfr",
+    "fold": 3,
+    "rmse": 6.055085816272486,
+    "mae": 5.461939393939395,
+    "pearson_r": 0.5003245076562116
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "rfr",
+    "fold": 4,
+    "rmse": 6.175533778917046,
+    "mae": 5.568242424242424,
+    "pearson_r": 0.5892423640278996
+  }
+]

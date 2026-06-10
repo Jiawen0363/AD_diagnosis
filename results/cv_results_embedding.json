@@ -1,0 +1,242 @@
+[
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "lr",
+    "fold": 0,
+    "accuracy": 0.8235294117647058,
+    "precision": 0.8263888888888888,
+    "recall": 0.8263888888888888,
+    "f1": 0.8235294117647058
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "lr",
+    "fold": 1,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.6845238095238095,
+    "recall": 0.6709558823529411,
+    "f1": 0.6616961789375583
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "lr",
+    "fold": 2,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.7777777777777777,
+    "recall": 0.7205882352941176,
+    "f1": 0.7102439024390244
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "lr",
+    "fold": 3,
+    "accuracy": 0.5757575757575758,
+    "precision": 0.5773809523809523,
+    "recall": 0.5716911764705883,
+    "f1": 0.5657894736842105
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "lr",
+    "fold": 4,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7867647058823529,
+    "recall": 0.788888888888889,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "svc",
+    "fold": 0,
+    "accuracy": 0.7941176470588235,
+    "precision": 0.8017543859649123,
+    "recall": 0.7986111111111112,
+    "f1": 0.793939393939394
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "svc",
+    "fold": 1,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.7043478260869566,
+    "recall": 0.6727941176470589,
+    "f1": 0.6552706552706553
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "svc",
+    "fold": 2,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7260869565217392,
+    "recall": 0.6911764705882353,
+    "f1": 0.6826923076923077
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "svc",
+    "fold": 3,
+    "accuracy": 0.5757575757575758,
+    "precision": 0.5773809523809523,
+    "recall": 0.5716911764705883,
+    "f1": 0.5657894736842105
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "svc",
+    "fold": 4,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7875939849624061,
+    "recall": 0.7833333333333333,
+    "f1": 0.7847157502329916
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 0,
+    "accuracy": 0.8235294117647058,
+    "precision": 0.8263888888888888,
+    "recall": 0.8263888888888888,
+    "f1": 0.8235294117647058
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 1,
+    "accuracy": 0.696969696969697,
+    "precision": 0.7096153846153846,
+    "recall": 0.7003676470588236,
+    "f1": 0.6944444444444444
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 2,
+    "accuracy": 0.7272727272727273,
+    "precision": 0.75,
+    "recall": 0.7224264705882353,
+    "f1": 0.717948717948718
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 3,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.637218045112782,
+    "recall": 0.6341911764705883,
+    "f1": 0.6333333333333333
+  },
+  {
+    "baseline": "embedding",
+    "task": "classification",
+    "model": "ridge",
+    "fold": 4,
+    "accuracy": 0.8484848484848485,
+    "precision": 0.849624060150376,
+    "recall": 0.8444444444444444,
+    "f1": 0.8462255358807083
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "lr",
+    "fold": 0,
+    "rmse": 6.634191494443571,
+    "mae": 5.243576582740335,
+    "pearson_r": 0.45864688510061546
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "lr",
+    "fold": 1,
+    "rmse": 6.341506981616388,
+    "mae": 5.184567162484834,
+    "pearson_r": 0.5827240687619244
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "lr",
+    "fold": 2,
+    "rmse": 7.171370029057944,
+    "mae": 5.773865728667288,
+    "pearson_r": 0.3338652441101405
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "lr",
+    "fold": 3,
+    "rmse": 6.480595336878114,
+    "mae": 5.550429199681138,
+    "pearson_r": 0.43459602888497423
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "lr",
+    "fold": 4,
+    "rmse": 6.380306355177024,
+    "mae": 5.065507021817294,
+    "pearson_r": 0.4858126882090597
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 0,
+    "rmse": 5.618575996844626,
+    "mae": 4.605113870957318,
+    "pearson_r": 0.6251379304306499
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 1,
+    "rmse": 5.871480351265521,
+    "mae": 4.991873538855351,
+    "pearson_r": 0.6390868793847846
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 2,
+    "rmse": 6.141241501311047,
+    "mae": 4.922203063964844,
+    "pearson_r": 0.5463267245286885
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 3,
+    "rmse": 5.986899396104142,
+    "mae": 5.177054896499172,
+    "pearson_r": 0.49628827231971584
+  },
+  {
+    "baseline": "embedding",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 4,
+    "rmse": 6.141582383769356,
+    "mae": 5.48082363244259,
+    "pearson_r": 0.5671049919434865
+  }
+]
