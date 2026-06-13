@@ -1,0 +1,34 @@
+[
+  {
+    "method": "TF-IDF (rationale only)",
+    "classifier": "lr",
+    "task": "classification",
+    "metrics": {
+      "accuracy": 0.6619718309859155,
+      "precision": 0.6710963455149501,
+      "recall": 0.6634920634920636,
+      "f1": 0.6586538461538461
+    }
+  },
+  {
+    "method": "TF-IDF (rationale only)",
+    "classifier": "svc",
+    "task": "classification",
+    "metrics": {
+      "accuracy": 0.6338028169014085,
+      "precision": 0.6461538461538461,
+      "recall": 0.6357142857142857,
+      "f1": 0.6278225806451614
+    }
+  },
+  {
+    "method": "TF-IDF (rationale only)",
+    "regressor": "ridge",
+    "task": "regression",
+    "metrics": {
+      "rmse": 6.225582845748251,
+      "mae": 5.336456072157704,
+      "pearson_r": 0.35516484973591467
+    }
+  }
+]

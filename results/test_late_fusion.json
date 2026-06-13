@@ -1,0 +1,69 @@
+[
+  {
+    "method": "transcript_only",
+    "embedding_model": "text-embedding-3-small",
+    "fusion_weight_transcript": 1.0,
+    "classification": {
+      "accuracy": 0.7183098591549296,
+      "precision": 0.7211538461538461,
+      "recall": 0.719047619047619,
+      "f1": 0.7178060413354531
+    },
+    "regression": {
+      "rmse": 5.655624470530974,
+      "mae": 4.7006829490124336,
+      "pearson_r": 0.566557284893772
+    }
+  },
+  {
+    "method": "rationale_only",
+    "embedding_model": "text-embedding-3-small",
+    "fusion_weight_transcript": 0.0,
+    "classification": {
+      "accuracy": 0.6338028169014085,
+      "precision": 0.6339712918660287,
+      "recall": 0.6333333333333333,
+      "f1": 0.6331478537360891
+    },
+    "regression": {
+      "rmse": 6.2552529717027205,
+      "mae": 5.473036591435822,
+      "pearson_r": 0.3425271894716692
+    }
+  },
+  {
+    "method": "late_fusion_equal",
+    "embedding_model": "text-embedding-3-small",
+    "fusion_weight_transcript": 0.5,
+    "classification": {
+      "accuracy": 0.7183098591549296,
+      "precision": 0.7211538461538461,
+      "recall": 0.719047619047619,
+      "f1": 0.7178060413354531
+    },
+    "regression": {
+      "rmse": 5.838265693448769,
+      "mae": 5.086859850816324,
+      "pearson_r": 0.5410076236215183
+    }
+  },
+  {
+    "method": "late_fusion_tuned",
+    "embedding_model": "text-embedding-3-small",
+    "fusion_weight_transcript_cls": 0.9500000000000001,
+    "fusion_weight_transcript_reg": 1.0,
+    "oof_train_cls_f1": 0.9277003484320558,
+    "oof_train_reg_rmse": 4.341788722571698,
+    "classification": {
+      "accuracy": 0.7323943661971831,
+      "precision": 0.7340510366826156,
+      "recall": 0.732936507936508,
+      "f1": 0.7321818542783403
+    },
+    "regression": {
+      "rmse": 5.655624470530974,
+      "mae": 4.7006829490124336,
+      "pearson_r": 0.566557284893772
+    }
+  }
+]

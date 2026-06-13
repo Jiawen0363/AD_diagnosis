@@ -1,0 +1,3 @@
+baseline,task,model,embedding_model,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,rmse_mean,rmse_std,mae_mean,mae_std,pearson_r_mean,pearson_r_std
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,classification,svc,text-embedding-3-small,0.7827094474153298,0.0760169618373252,0.7861316895179125,0.07384132936191064,0.7834395424836602,0.07820236344253692,0.7807519175288575,0.07924458328215359,,,,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,regression,ridge,text-embedding-3-small,,,,,,,,,5.847896701986512,0.1725044283190942,4.97790512418152,0.3281000437675095,0.6036662568764091,0.055012073265883664

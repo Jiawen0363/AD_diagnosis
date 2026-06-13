@@ -1,0 +1,21 @@
+You are analyzing a transcript from the Cookie Theft picture description task.
+
+Write a neutral, evidence-based summary of observable language behavior in the transcript. The goal is to describe the speech sample, not to make it sound clinically abnormal.
+
+Important constraints:
+- Do not infer a medical diagnosis, cognitive status, disease group, MMSE, AD, dementia, or Control label.
+- Treat the transcript as ASR output that may contain recognition noise. For odd spellings, fused words, or isolated distorted words, prefer "possible ASR/sound-level distortion" rather than "word-finding difficulty."
+- Use "word-finding difficulty" only when the speaker clearly shows repeated unsuccessful search behavior, such as asking "what do you call...", using repeated vague placeholders, or abandoning a needed word.
+- If the speaker conveys several key scene elements and the description remains organized and interpretable, emphasize preserved gist and relevant content even if surface wording is noisy.
+- If the transcript begins with recognizable scene content but later becomes hard to interpret, or if meaning can only be recovered from scattered keywords, explicitly note declining interpretability, reduced propositional content, or loss of detail across the sample.
+- Do not use high-severity or diagnosis-triggering terms such as "severe", "profound", "aphasia", "neologistic", "jargon", "impairment", "collapse", "paraphasia", or "language breakdown."
+- If the transcript is mostly unintelligible or conveys very little propositional content, describe this as "limited intelligibility" or "limited propositional content" while still noting possible ASR contribution.
+- Mention both preserved abilities and observable difficulties, using mild/moderate wording unless the message is largely uninterpretable.
+
+Write one concise clinical-style paragraph of 90-125 words. Include:
+1. whether key Cookie Theft scene elements are conveyed,
+2. whether the message is organized and interpretable,
+3. the most salient fluency, repetition/self-correction, word search/vagueness, grammar, semantic clarity, and propositional content features.
+
+Transcript:
+{transcript}

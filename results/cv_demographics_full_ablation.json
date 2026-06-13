@@ -1,0 +1,105 @@
+[
+  {
+    "task": "classification",
+    "model": "embedding+svc",
+    "demographics": false,
+    "accuracy": 0.7641711229946523,
+    "precision": 0.7735723358169179,
+    "recall": 0.766078431372549,
+    "f1": 0.762053079913861
+  },
+  {
+    "task": "classification",
+    "model": "embedding+svc",
+    "demographics": true,
+    "accuracy": 0.7648841354723708,
+    "precision": 0.768845704948646,
+    "recall": 0.7638153594771242,
+    "f1": 0.7633442599656522
+  },
+  {
+    "task": "classification",
+    "model": "concat+svc",
+    "demographics": false,
+    "accuracy": 0.7827094474153298,
+    "precision": 0.7861316895179125,
+    "recall": 0.7834395424836602,
+    "f1": 0.7807519175288575
+  },
+  {
+    "task": "classification",
+    "model": "concat+svc",
+    "demographics": true,
+    "accuracy": 0.8130124777183602,
+    "precision": 0.8155757039657969,
+    "recall": 0.812843137254902,
+    "f1": 0.8120118233021458
+  },
+  {
+    "task": "classification",
+    "model": "tfidf+svc",
+    "demographics": false,
+    "accuracy": 0.7472370766488414,
+    "precision": 0.7493266868150769,
+    "recall": 0.747516339869281,
+    "f1": 0.7465208502755941
+  },
+  {
+    "task": "classification",
+    "model": "v3_routing",
+    "demographics": false,
+    "accuracy": 0.8012048192771084,
+    "precision": 0.8013157894736842,
+    "recall": 0.7998690528153645,
+    "f1": 0.8003280481137234
+  },
+  {
+    "task": "classification",
+    "model": "v3_routing",
+    "demographics": true,
+    "accuracy": 0.7891566265060241,
+    "precision": 0.7887529137529137,
+    "recall": 0.7883747999418013,
+    "f1": 0.7885350318471338
+  },
+  {
+    "task": "regression",
+    "model": "embedding+ridge",
+    "demographics": false,
+    "rmse": 5.959887707165809,
+    "mae": 5.094706213028035,
+    "pearson_r": 0.5721036670851325
+  },
+  {
+    "task": "regression",
+    "model": "embedding+ridge",
+    "demographics": true,
+    "rmse": 5.613397121544595,
+    "mae": 4.675484907259343,
+    "pearson_r": 0.6154050932573805
+  },
+  {
+    "task": "regression",
+    "model": "concat+ridge",
+    "demographics": false,
+    "rmse": 5.847896701986512,
+    "mae": 4.97790512418152,
+    "pearson_r": 0.6036662568764091
+  },
+  {
+    "task": "regression",
+    "model": "concat+ridge",
+    "demographics": true,
+    "rmse": 5.47795493788982,
+    "mae": 4.541418658201839,
+    "pearson_r": 0.6381972170270946
+  },
+  {
+    "task": "regression",
+    "model": "tfidf+ridge",
+    "demographics": false,
+    "rmse": 5.682722811878941,
+    "mae": 4.737659115739704,
+    "pearson_r": 0.6142557892108084
+  }
+]

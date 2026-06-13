@@ -1,0 +1,8 @@
+Method,Embedding model,Regression Model,RMSE,Pearson r
+TF-IDF (transcript),-,Ridge,5.169,0.649
+TF-IDF (transcript),-,Ridge,5.169,0.649
+Embedding (transcript),BAAI/bge-m3,Ridge,5.751,0.529
+Embedding (transcript),text-embedding-3-small,Ridge,5.655,0.567
+Embedding (transcript),text-embedding-3-large,Ridge,5.583,0.567
+Embedding (transcript+rationale),text-embedding-3-small,Ridge,5.612,0.57
+Embedding (transcript+rationale),text-embedding-3-large,Ridge,5.642,0.537

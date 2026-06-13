@@ -1,0 +1,38 @@
+[
+  {
+    "use_demographics": false,
+    "classification": {
+      "accuracy": 0.7951807228915663,
+      "precision": 0.7956043956043957,
+      "recall": 0.7935399388913138,
+      "f1": 0.7941047716328615
+    },
+    "regression": {
+      "rmse": 5.848463535293988,
+      "mae": 4.974644626479551,
+      "pearson_r": 0.5739530733250449
+    },
+    "routing": {
+      "n_disagree": 40,
+      "disagree_accuracy": 0.675
+    }
+  },
+  {
+    "use_demographics": true,
+    "classification": {
+      "accuracy": 0.7951807228915663,
+      "precision": 0.7949803005982781,
+      "recall": 0.7941219263785828,
+      "f1": 0.7944347319347319
+    },
+    "regression": {
+      "rmse": 5.484054898267333,
+      "mae": 4.538588104029837,
+      "pearson_r": 0.622167907930613
+    },
+    "routing": {
+      "n_disagree": 40,
+      "disagree_accuracy": 0.675
+    }
+  }
+]

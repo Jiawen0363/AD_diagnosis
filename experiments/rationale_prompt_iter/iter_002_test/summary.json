@@ -1,0 +1,14 @@
+{
+  "n": 20,
+  "accuracy": 0.55,
+  "ad_prediction_rate": 0.95,
+  "control_false_positive_rate": 0.9,
+  "ad_false_negative_rate": 0.0,
+  "counts": {
+    "AD": 10,
+    "Control": 10,
+    "correct": 11,
+    "control_predicted_ad": 9,
+    "ad_predicted_control": 0
+  }
+}

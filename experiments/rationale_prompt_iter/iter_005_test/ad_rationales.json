@@ -1,0 +1,92 @@
+[
+  {
+    "source_group": "AD",
+    "index": "1",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt8.wav",
+    "label": "1.0",
+    "mmse": "10",
+    "speech": "O YHERE WAMONHAPPENING IN THE PICTURE RUDEUHSHTHAT'S HAPPENING OVER HEREPLAINTAN I SHAYE COOKIE YOAR NO TA'LL GIVE ITWHAT'S THAT MAN TO THISWHICH DO WHAT'S ITING THERE THER RAN MY COOKIE YOUREAND WHAT'S THIS WOL MY DOING THE WENAD TEE CLEANING A AITAND WHAT'S HATENING HERE BUBURHAMEESAT EVERYTHINGHE PROUGT HIM PLAYNIGTOINITDOES EVERYTHING NOW WHO CAN DO ONEIS THAT IS THAT EVERYTHING YOU SEE OH GOOD AND",
+    "rationale": "The transcript conveys limited interpretable content from the Cookie Theft scene; recognizable words include 'picture,' 'happening,' 'cookie,' 'man,' 'cleaning,' but key elements (e.g., boy taking cookies, overflowing sink) are not clearly expressed. The output consists largely of fused and fragmented utterances (e.g., 'RUDEUHSHTHAT'S HAPPENING,' 'PLAINTAN I SHAYE COOKIE YOAR NO TA'LL GIVE IT'), with frequent interrogatives ('what's that,' 'what's this') that appear to serve as placeholders, suggesting difficulty accessing specific nouns. Speech is marked by repetitions, possible ASR sound-level distortions, and frequent self-interruptions, making the message difficult to follow and lacking organized sentence structure. Despite limited propositional content and reduced semantic clarity, the speaker shows preserved task engagement with a final self-prompting query ('is that everything you see?')."
+  },
+  {
+    "source_group": "AD",
+    "index": "7",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt37.wav",
+    "label": "1.0",
+    "mmse": "13",
+    "speech": "TELL ME WHAT YOU SAE GOING ON IN THIS PICTUREI DON'T SEE NOW MAS E LOURS WUT I SELECTEDFUL PANCIL VER SOMETING ONEERFUL VANLLEND YOU SEE WHAT'S GOING ON IN THAT VICTOROL PSE I SEE A GIRLS AN AN MATEAND THA AUI MY ASHI SISO WEL MARKS OT SORTIME L OTEE LIK THERESOMKAR O FOU OR ERRYSONA GIRL IS THEY EY HOGES A LONG AGOTHEWHATELSE YOU SEE GOING ON SHE WITSON RIGHT HERE IN THIS BUT HAPPENING THERE LIKE SOME OLD GOLS INWAY WI YOU ER WHAT ELSE AS GOING ONO ME WE WATIICAN YOU TELL I LET'S GOING O ON ISSIDE THE PICTURE DO I FEL REESTRALE TOK TEMFLANSE IN UO WHAT ARE YOU TALKING OFE A FO THISS THEY ALL O TE BOUT THE SAME THELIEF I TSANERE REPLIED O LE AHA DAN YOU SEE ANYTHINGI'M SLIDE AND BRING MY GLACIERSREGGER WE CAN TRY AND NOT THE TIMIN YOU HAVE THIS LASTIT IT DOWS HELP HAMA",
+    "rationale": "The speaker attempts to describe the Cookie Theft picture but produces a largely unintelligible output containing possible ASR/sound-level distortions, fused words, and nonword strings. Recognizable fragments such as “I see a girls,” “what else as going on,” and “inside the picture” are present, but key scene elements (e.g., cookie jar, overflowing sink, stool, children’s actions) are not clearly conveyed. The message is disorganized and lacks coherent propositional content; overall semantic clarity is markedly reduced. Fluency appears relatively continuous, yet the sample is dominated by garbled sequences that limit interpretability. No overt word-finding difficulty, repetition, or self-correction is observed. Grammar occasionally includes basic phrase structures, but the primary limitation is the pervasive sound-level distortion rather than a breakdown in syntactic form."
+  },
+  {
+    "source_group": "AD",
+    "index": "9",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt44.wav",
+    "label": "1.0",
+    "mmse": "12",
+    "speech": "I WON'T YOU TELL ME ANYTHING THAT YOU SEE GOING ON IN THAT MIGGER WHAT YOUING NOW THIS THE COOKY JARTE MAD ME THE CURR HELBAN HIM EASI THEIR MOTHER WAS THERE SPILINAWHAT II ANTHIS WOULD INDEED BE GRAAND MANHER I GESSJENTMENCARRIIN DOWN ON EVER HERE WELLEXCLAINED TO FALL PREE RIT BETEMSHE WAS HELP HIM WUO HE HANDWETH TEERCLITLYTO TWO MIS SISTER AGNESROT YTHING OUSWENTA AT TARMOTHE WAS DRYING HIM DITIOUREGANTING WAARACANYTHING ELSETHERE HE MIGHT FALL SURNISH IN ITISLEIS SCAREL ISAID ET I NEWFEVER O CARE",
+    "rationale": "The transcript contains pervasive sound-level distortions and fused words consistent with possible ASR noise, resulting in limited intelligibility. Isolated recognizable fragments (\"cooky jarte\" for cookie jar, \"their mother was there,\" \"he might fall\") suggest that some key Cookie Theft scene elements are partially conveyed, though they are embedded in largely uninterpretable output. The speech sample is continuous, with no evident repetitions, self-corrections, or clear word-finding difficulty; unusual forms likely reflect recognition errors rather than lexical retrieval pause. Grammatical structure is fragmentary, and semantic clarity is low. Overall propositional content is limited, and the message lacks clear organization, making it difficult to follow a coherent description."
+  },
+  {
+    "source_group": "AD",
+    "index": "13",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt71.wav",
+    "label": "1.0",
+    "mmse": "24",
+    "speech": "BUT I LIKE YOU TO THINK WE CAN GO ROND AN FINE FOR YOULOT WO YOU ON HER MISTER TAKE A LOOK AT THIS PICTURE AND TELL ME EVERYTHING THAT YOU SEE HAWME EVERYTHING THAT YOU SEE GOING LON NEVERYTHING WORSE EVERYTHING THAT YOU SEE HOTENING IN THIS PICTURE O YOU O EVERYTHING THAT YOU SEE GOING ON JUST TELL ME EVERYTHING YOU SEE HAPPENING WHAT COULD HAPPEN WHAT IS HAPPENINGWHAT HAS HAPPENING TOLME MIG I STILL AND COKIS WITH HANSHE WAS HAPPYMOTHERIS WA KIDISHOUS WASHIN OFTE WATER WANHIN HE'S GOING TO FALL OFF THAT YERDON BREAK YOUR LAKE LOOK ATWHO CAN  NHE'S DONE A WRONG THING TOGEGOT ER HAND OUT THERE HE'S TRYIN TO GIVE HER SUMER HE WEN FORA CHAIRS A LEVE YE COOCK AN TUT UP PIECES WHAT ELSE YOU AREI SAWIT'S GOIN ONCE SO AS I SHE",
+    "rationale": "The transcript begins with an extended, repetitive segment that echoes examiner prompts with sound-level distortions (e.g., ‘HAWME EVERYTHING...’), reducing intelligibility before the scene description starts. Key elements are partially conveyed: a woman washing, water, a boy about to fall, giving something, possibly cookies. These mentions are embedded in short, fragmented phrases with many non-standard word forms and fused words, consistent with combined speech-sound distortion and ASR noise. Syntactic structure is minimal, and semantic clarity is reduced, leaving much of the output disjointed and difficult to interpret. No clear word-finding difficulty is observed; instead, the sample displays limited overall intelligibility and a lack of connected, organized descriptive discourse. Propositional content is low, though a few core scene elements remain partially recognisable."
+  },
+  {
+    "source_group": "AD",
+    "index": "25",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt2.wav",
+    "label": "1.0",
+    "mmse": "29",
+    "speech": "PICTURE AND TELL ME EVERYTHING THAT YOU SEE HAPPENINGHERE EVERYTHING THAT YOU SEE GOING ONAONIN THE MN  OTEL KID STANDIN ON A TILDED STOOLYEN COKESAN WHA ES YONATHER SINKISWHAT PEOTHE GIRL HAS TWO DIFFERENT SUES ONBI WI AN WT I AN MUMTHE STORE IS CILTEDNO WD  UTTER ATOBE CANCESUR I OAT TAT A  OTHE COOK AN YOUR IS NOT A JY IT'S AIT'S IT'S AACAN'T CIN KAN THINK TIN BUSHOLETTERAY",
+    "rationale": "The transcript conveys some key Cookie Theft scene elements, including a child standing on a tilted stool and a girl wearing two different shoes, with references to a sink and cookies. However, the message is not organized or consistently interpretable; the output consists of fragmented phrases, sound-level distortions, and non-word strings that obscure much of the intended content. Fluency is disrupted by frequent false starts, repetitions, and self-corrections (e.g., “IT’S AIT’S IT’S AA”). The speaker displays word-finding difficulty through placeholders like “WHA ES” and an aborted attempt with “CAN’T CIN KAN THINK.” Grammatical structure is absent, with no complete sentences. Semantic clarity is reduced, and propositional content is limited, as recognizable scene information is embedded within largely unintelligible speech. Overall, intelligibility is limited, though some gist is preserved."
+  },
+  {
+    "source_group": "AD",
+    "index": "30",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt7.wav",
+    "label": "1.0",
+    "mmse": "24",
+    "speech": "EVERYTHING THAT YOU SEE HAPPENING IN THAT PICTURE EVERY ONE IS GOING ON THEREAND THE BOY AND THE GIRL ARE PLAG AND HE'D GUIN TO FALLD ON OFF THE LATTERAND THE MOTHER WORCHING THE DISHES IN THEDRYING OUT OVER THE SHANK DOWN OF THE FLOOROR ELSEPEPLE MITARIA THAT'S NOT WHATEVEROU SEE HOWPANY SIDE IT TEACO NAN",
+    "rationale": "The speaker attempts to convey Cookie Theft scene elements, mentioning the boy, girl, mother washing dishes, and water on the floor, but these are embedded in stretches of limited intelligibility. The output is largely fragmented, with frequent possible ASR/sound-level distortions (e.g., “plag,” “guin to falld,” “worching,” “shank down,” “mitaria,” “teaco nan”) and fused words (“THEREAND,” “ELSEPEPLE”) that obscure the message. Grammar is markedly incomplete, lacking clear sentence structure. Semantic coherence is reduced; meaning must be recovered from scattered keywords, and the overall propositional content is limited despite recognition of some key actions. No clear word-finding difficulty is observed, but the description remains difficult to interpret, with only partial gist preserved."
+  },
+  {
+    "source_group": "AD",
+    "index": "34",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt4.wav",
+    "label": "1.0",
+    "mmse": "28",
+    "speech": "E ALL THE ATAND LOOK AS HE A GOING TO COOK YOUE I SEEHE AS AMIDDAOV CETED IN THE STANDING NAS THREE LEGETO ROM AND HE'S AGLAD TO DEFARGE MDAT CHILEGESTULEAS ONE COOKING HIS HAND ANDAND DOWN TO A SISTER AND SHE WAS REACHING AFIT AND I THINK SHE'S INDICATING TO DE BORTE TICSTILSE'S MORTE VESSEL HERUS A MINEAY SHE MUTTER AI GUESS SHE'S DERING ADISIOUSWHOIS NOT PAIN ATTENTION BECAUSE SHE SELF LEAVEN THE SAK RUN OVERSIN E MOT OER THE FLOOR SHE MUST NOT BE CONSCIOUS BECAUSE SHE' STANDIN DOESN'T KNOW ITOOH SI THINK SHE MUSTPERTANG SHE POBY LOINET WINDOWS I TAKE TO SECOND WOK  IN E SEE BUNECAVERY DICIOUS UNDER ATAI SE LE CABUNGE I NOW WHETHER TAY ALL HEMITES ARM LIT A MOUTH ESSAN LOOKE LIKE THE TWO AR E BOYGO HAVE LOCKED UPON  COMEDOAN I SEE OUTSIDE I SEEYO Y FON GET A TREE HOMSTROBERY TOIT IS KEM I ATY",
+    "rationale": "The output conveys recognizable Cookie Theft elements—boy on a stool, sister reaching, overflowing sink, water on the floor, outside tree—but much of the transcript consists of fused nonword strings (e.g., “AMIDDAOV CETED”) likely attributable to ASR/sound-level distortion rather than word-finding difficulty. Grammar is fragmentary; connected meaning is difficult to follow. Brief interpretable phrases (“SHE’S REACHING AFIT,” “SAK RUN OVERSIN... THE FLOOR”) appear, but semantic clarity is reduced. Fluency shows false starts, a repetition (“ANDAND”), and a self-correction (“I TAKE TO SECOND WOK”). An interpretive comment about lack of consciousness indicates preserved narrative intent. Overall, propositional content is limited and the message remains disjointed, with reduced intelligibility."
+  },
+  {
+    "source_group": "AD",
+    "index": "39",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt60.wav",
+    "label": "1.0",
+    "mmse": "20",
+    "speech": "MICHAR PICTURE OW HAS A WITE ACT IN GOING ON WHAT I WANTYED IT IS TO TELL MEALL THAT YOU SEE GOING ON IN THE PICTURE TELL ME WHAT IS GOING ON IN THE PICTUREAND THERE'S THE PICTURETO SAY OUT NOW WHAT YOU SEE GOING ON IN THE FIXTURE ON C THE BOYS WON'TOVE COKY JAR IN A MOTHER'S WASH ON THE DISHESANYTHING ELSE WHER ESE IS GOING ONEMOCATION YE ALL E  TE WATERIN THE SAINTANOH WIT MORE ANYTHINGLET'S GO LI TO PICTURE AUWEL THIS LITTLE GIRL ANT THE COQEANYTHING ELSE WHAT ELSE IS GOING ONEVER HERE OH HE'S FALL OFF TE CHAIRA H ID IN WELLOFT ATLUNCH WHAT ELSE HAS GONE ON OVER HERE NOTHE WATERS GETTIN OVERTHE SAINT THERE AND YES HIS WIFE ANDERE DISH THEREAN SHE IS LOOKING OUT THE WINDOWLET THE SAIL",
+    "rationale": "The speaker conveys multiple key elements of the Cookie Theft picture: a boy reaching for a cookie jar, the mother washing dishes, water overflowing from the sink, a girl, and a figure looking out the window. The message is organized around examiner prompts but contains frequent fused words, sound-level distortions (e.g., “saint” for sink, “coky” for cookie), and run-on phrasing suggestive of ASR noise. Despite these artifacts, the gist remains interpretable. Fluency is disjointed with intermittent self-prompting and repetition of “what else is going on.” Grammar is simple and often fragmentary. No overt word-finding difficulty is observed; vocabulary is relevant to the scene. Propositional content is conveyed through concrete observations, preserving the core situation."
+  },
+  {
+    "source_group": "AD",
+    "index": "45",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt25.wav",
+    "label": "1.0",
+    "mmse": "20",
+    "speech": "YOU SEE GOING ON IN THE PICTURE WELLTHE LITTLE BOY WENT UP TO GIV SOME COOKIES THE LITTLE GIRLREACHINOUGH TO GIVE A JAR TO THE COOK TO HER BROTHERTHE MOTHER AS WASHING DISHES AN THE EN TE YA THE SAINK IS FULL OF GISH A FULL OF WATER AN THE MOTHER IS TE AA WIPING THE DISHES ANN LET'S SEE WHAT ELSE AN THEBOY IS I ALMOST FALLEN OFF THIT'S LONGIT'S A THING HERE EH WHAT  YOU WAT I CALL IS A CHAIRA CHAIR AN A AN TE AN THE WATERS BUT FALLEN OON THE FLOOR BY THE MOTHERIN THE LITTLE GIRLS SAK AT HANINAHANDING HER RAH SOMETHING TO HER BROTHER AND CUT A COKIES IS PROUD OF COOKIE SO HE'S HANDIN HERIS WHATEVER AN HE",
+    "rationale": "The speaker conveys several key Cookie Theft elements—the boy taking cookies, the girl reaching to hand a jar, the mother washing and wiping dishes, the sink overflowing with water, and the boy nearly falling from a stool—so the overall gist remains recognizable. The message is partially interpretable but frequently disrupted by false starts, self-corrections, and possible ASR/sound-level distortions (e.g., fused words, repeated “an te”). An explicit word-finding difficulty occurs for “chair” (“eh what you… I call is a chair”). Fluency is reduced by hesitations, restarts, and sound fragments. Grammar is often fragmented and incomplete, and preposition/verb forms are inconsistent, which lowers cohesion. Semantic clarity is moderate; some segments are low in propositional content, but the scene is still discernible."
+  },
+  {
+    "source_group": "AD",
+    "index": "70",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt23.wav",
+    "label": "1.0",
+    "mmse": "24",
+    "speech": "THERE IT ISOR ETURNING E SECRET AN  CETERCOME O BELOL HEAD TO HM AT FOR ONE TINGTHERE'SIN A STOOLES RAT O ALLTHER BE STAYING ME HEIS LADY WATCHEN TOI FECS SAKE STOW TE FOL WATER IN ISTOLED ON PALSISTER AWITIOGRESN SHEGIATSAI CI CIKATSI PLATO BE LER HAT SLAIN IONSE GIDERSHEAND FORER",
+    "rationale": "The transcript consists predominantly of fused and phonetically distorted word forms, likely reflecting ASR noise, resulting in markedly limited intelligibility. Recognizable scene elements are sparse: “lady,” “watching,” “water,” and “stool” hint at the mother, water, and a stool, but other key entities (boy, girl, cookies) are not identifiable. The output lacks grammatical structure and interpretable semantic links; no clear sentence formation is evident. Fluency cannot be reliably evaluated due to continuous distortion, and there are no observable self-corrections or word-search behaviors. Propositional content is minimal, and the overall message remains largely unintelligible. While a few content words survive, the description fails to convey the picture’s core events in an organized manner."
+  }
+]

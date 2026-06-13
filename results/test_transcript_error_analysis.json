@@ -1,0 +1,601 @@
+{
+  "n": 71,
+  "emb": {
+    "acc": 0.7183098591549296,
+    "wrong_n": 20,
+    "FN_AD_missed": 8,
+    "FP_Control_as_AD": 12
+  },
+  "tfidf": {
+    "acc": 0.7887323943661971,
+    "wrong_n": 15,
+    "FN_AD_missed": 8,
+    "FP_Control_as_AD": 7
+  },
+  "overlap": {
+    "both_wrong": 8,
+    "emb_only_wrong": 12,
+    "tfidf_only_wrong": 7,
+    "both_correct": 44
+  },
+  "error_profiles": {
+    "emb_FN": {
+      "n": 8,
+      "ad_n": 8,
+      "control_n": 0,
+      "mmse_mean": 20.625,
+      "mmse_min": 10.0,
+      "mmse_max": 30.0,
+      "text_len_mean": 558.875,
+      "word_count_mean": 107.125
+    },
+    "emb_FP": {
+      "n": 12,
+      "ad_n": 0,
+      "control_n": 12,
+      "mmse_mean": 28.833333333333332,
+      "mmse_min": 27.0,
+      "mmse_max": 30.0,
+      "text_len_mean": 449.75,
+      "word_count_mean": 84.91666666666667
+    },
+    "tfidf_FN": {
+      "n": 8,
+      "ad_n": 8,
+      "control_n": 0,
+      "mmse_mean": 21.875,
+      "mmse_min": 10.0,
+      "mmse_max": 28.0,
+      "text_len_mean": 541.5,
+      "word_count_mean": 104.875
+    },
+    "tfidf_FP": {
+      "n": 7,
+      "ad_n": 0,
+      "control_n": 7,
+      "mmse_mean": 28.428571428571427,
+      "mmse_min": 27.0,
+      "mmse_max": 30.0,
+      "text_len_mean": 355.85714285714283,
+      "word_count_mean": 65.71428571428571
+    },
+    "emb_only_wrong": {
+      "n": 12,
+      "ad_n": 5,
+      "control_n": 7,
+      "mmse_mean": 25.916666666666668,
+      "mmse_min": 16.0,
+      "mmse_max": 30.0,
+      "text_len_mean": 566.6666666666666,
+      "word_count_mean": 107.16666666666667
+    },
+    "tfidf_only_wrong": {
+      "n": 7,
+      "ad_n": 5,
+      "control_n": 2,
+      "mmse_mean": 24.857142857142858,
+      "mmse_min": 19.0,
+      "mmse_max": 29.0,
+      "text_len_mean": 536.4285714285714,
+      "word_count_mean": 101.28571428571429
+    },
+    "both_wrong": {
+      "n": 8,
+      "ad_n": 3,
+      "control_n": 5,
+      "mmse_mean": 25.0,
+      "mmse_min": 10.0,
+      "mmse_max": 30.0,
+      "text_len_mean": 383.5,
+      "word_count_mean": 73.75
+    }
+  },
+  "cases": {
+    "emb_errors": [
+      {
+        "subject_id": "adrsdt10",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 81,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt14",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 16.0,
+        "words": 62,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt16",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 10.0,
+        "words": 50,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt17",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 98,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt20",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 21.0,
+        "words": 249,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt21",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 97,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt24",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 159,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt38",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 98,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt41",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 46,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt45",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 59,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt47",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 187,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt49",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 55,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt51",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 62,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt52",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 65,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt56",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 80,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt59",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 59,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt63",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 30.0,
+        "words": 72,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt68",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 119,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt69",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 18,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt9",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 23.0,
+        "words": 160,
+        "err": "FN_AD_missed"
+      }
+    ],
+    "tfidf_errors": [
+      {
+        "subject_id": "adrsdt10",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 81,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt13",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 49,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt16",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 10.0,
+        "words": 50,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt17",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 98,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt18",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 196,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt28",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 19.0,
+        "words": 112,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt34",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 59,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt4",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 28.0,
+        "words": 154,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt43",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 55,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt45",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 59,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt5",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 84,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt52",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 65,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt59",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 59,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt69",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 18,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt9",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 23.0,
+        "words": 160,
+        "err": "FN_AD_missed"
+      }
+    ],
+    "emb_only_wrong": [
+      {
+        "subject_id": "adrsdt14",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 16.0,
+        "words": 62,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt20",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 21.0,
+        "words": 249,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt21",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 97,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt24",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 159,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt38",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 98,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt41",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 46,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt47",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 187,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt49",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 55,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt51",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 62,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt56",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 80,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt63",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 30.0,
+        "words": 72,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt68",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 119,
+        "err": "FP_Control_as_AD"
+      }
+    ],
+    "tfidf_only_wrong": [
+      {
+        "subject_id": "adrsdt13",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 20.0,
+        "words": 49,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt18",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 196,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt28",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 19.0,
+        "words": 112,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt34",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 59,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt4",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 28.0,
+        "words": 154,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt43",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 55,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt5",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 29.0,
+        "words": 84,
+        "err": "FP_Control_as_AD"
+      }
+    ],
+    "both_wrong": [
+      {
+        "subject_id": "adrsdt10",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 81,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt16",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 10.0,
+        "words": 50,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt17",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 28.0,
+        "words": 98,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt45",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 27.0,
+        "words": 59,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt52",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 65,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt59",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 25.0,
+        "words": 59,
+        "err": "FN_AD_missed"
+      },
+      {
+        "subject_id": "adrsdt69",
+        "true": "Control",
+        "pred": "AD",
+        "mmse": 30.0,
+        "words": 18,
+        "err": "FP_Control_as_AD"
+      },
+      {
+        "subject_id": "adrsdt9",
+        "true": "AD",
+        "pred": "Control",
+        "mmse": 23.0,
+        "words": 160,
+        "err": "FN_AD_missed"
+      }
+    ]
+  }
+}

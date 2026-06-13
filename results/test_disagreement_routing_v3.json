@@ -1,0 +1,95 @@
+{
+  "method": "disagreement_routing_v3",
+  "use_demographics": false,
+  "rule": "if embedding_cls != tfidf_cls -> use meta-learner; else -> use shared prediction",
+  "route_regression": false,
+  "regression_model_when_routed": "tfidf",
+  "meta_learner": "logistic_regression",
+  "meta_features": [
+    "embedding_probability",
+    "tfidf_probability",
+    "concat_probability"
+  ],
+  "meta_coefficients": {
+    "embedding": 1.381594782213353,
+    "tfidf": 2.044990556909983,
+    "concat": 1.920898513462956,
+    "intercept": -2.563770976902205
+  },
+  "meta_train_fit_accuracy": 0.8072289156626506,
+  "demographics_coverage": {
+    "train_observed": null,
+    "test_observed": null,
+    "test_imputed": null
+  },
+  "embedding_model": "text-embedding-3-small",
+  "classifier": "svc",
+  "regressor": "ridge",
+  "train_size": 166,
+  "test_size": 71,
+  "classification": {
+    "accuracy": 0.8028169014084507,
+    "precision": 0.8036565977742448,
+    "recall": 0.8031746031746032,
+    "f1": 0.8027777777777778
+  },
+  "regression": {
+    "rmse": 5.169097552983801,
+    "mae": 4.169068001723511,
+    "pearson_r": 0.649308075083225
+  },
+  "routing": {
+    "n_total": 71,
+    "n_agree": 52,
+    "n_disagree": 19,
+    "accuracy_on_agree_subset": 0.8461538461538461,
+    "accuracy_on_disagree_subset": 0.6842105263157895,
+    "meta_correct_on_disagree": 13,
+    "concat_correct_on_disagree": 12,
+    "tfidf_correct_on_disagree": 12,
+    "embedding_correct_on_disagree": 7,
+    "rescues_vs_tfidf_on_disagree": 5,
+    "rescues_vs_concat_on_disagree": 3,
+    "harmed_vs_tfidf_on_disagree": 4
+  },
+  "baselines": {
+    "classification": {
+      "embedding": {
+        "accuracy": 0.7183098591549296,
+        "precision": 0.7211538461538461,
+        "recall": 0.719047619047619,
+        "f1": 0.7178060413354531
+      },
+      "tfidf": {
+        "accuracy": 0.7887323943661971,
+        "precision": 0.7889507154213036,
+        "recall": 0.7884920634920636,
+        "f1": 0.7885646217986897
+      },
+      "concat": {
+        "accuracy": 0.7746478873239436,
+        "precision": 0.7780448717948718,
+        "recall": 0.7753968253968254,
+        "f1": 0.7742448330683624
+      },
+      "meta_all_samples": {
+        "accuracy": 0.8028169014084507,
+        "precision": 0.8036565977742448,
+        "recall": 0.8031746031746032,
+        "f1": 0.8027777777777778
+      }
+    },
+    "regression": {
+      "tfidf": {
+        "rmse": 5.169097552983801,
+        "mae": 4.169068001723511,
+        "pearson_r": 0.649308075083225
+      },
+      "concat_plus_demographics": {
+        "rmse": 5.612450602724333,
+        "mae": 4.735927219122228,
+        "pearson_r": 0.5698619827463001
+      }
+    }
+  }
+}

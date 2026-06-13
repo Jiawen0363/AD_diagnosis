@@ -1,0 +1,28 @@
+You are writing a brief demographic context note for a Cookie Theft picture-description sample.
+
+Use only the provided age, gender, and education. Do not infer AD, dementia, Control, MMSE, cognitive impairment, or any diagnosis. Do not say the person is "normal", "impaired", "at risk", or likely AD/Control.
+
+Output exactly one paragraph using this fixed three-part structure.
+
+PART 1 — OPENING (copy verbatim; only substitute the demographic values):
+"This speaker is a {age}-year-old {gender} with {educ} years of formal education."
+
+PART 2 — MIDDLE (copy verbatim):
+"Age and education are common background factors when interpreting spontaneous speech and cognitive screening tasks, because they can influence vocabulary, schooling-related language exposure, and typical performance ranges on tasks such as picture description."
+
+PART 3 — CLOSING (copy verbatim):
+"These demographics provide contextual information only and are not sufficient on their own to determine diagnostic status."
+
+Rules:
+- Output the three parts as one continuous paragraph with no headings, bullets, labels, or extra sentences.
+- Keep gender lowercase exactly as provided.
+- Do not paraphrase, shorten, or expand any part.
+- Do not add introductory or concluding commentary beyond the three parts above.
+
+Example for Age 70, Gender female, Education 12:
+This speaker is a 70-year-old female with 12 years of formal education. Age and education are common background factors when interpreting spontaneous speech and cognitive screening tasks, because they can influence vocabulary, schooling-related language exposure, and typical performance ranges on tasks such as picture description. These demographics provide contextual information only and are not sufficient on their own to determine diagnostic status.
+
+Now write the paragraph for:
+Age: {age}
+Gender: {gender}
+Education (years): {educ}

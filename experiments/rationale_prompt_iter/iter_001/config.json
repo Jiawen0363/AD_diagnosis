@@ -1,0 +1,7 @@
+{
+  "model": "deepseek-v4-pro",
+  "api_base": "https://api.deepseek.com/v1",
+  "concurrency": 4,
+  "temperature": 0.2,
+  "base_prompt": "/data/jiawen/AD_diagnosis/prompt/compressed_rationale_prompt.txt"
+}

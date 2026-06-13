@@ -1,0 +1,54 @@
+[
+  {
+    "model": "concat_language",
+    "use_tabular_demo": true,
+    "cv_classification": {
+      "accuracy": 0.8130124777183602,
+      "precision": 0.8155757039657969,
+      "recall": 0.812843137254902,
+      "f1": 0.8120118233021458
+    },
+    "cv_regression": {
+      "rmse": 5.47795493788982,
+      "mae": 4.541418658201839,
+      "pearson_r": 0.6381972170270946
+    },
+    "test_classification": {
+      "accuracy": 0.6901408450704225,
+      "precision": 0.7068376068376069,
+      "recall": 0.692063492063492,
+      "f1": 0.6850806451612903
+    },
+    "test_regression": {
+      "rmse": 5.785186023679773,
+      "mae": 4.952137777687698,
+      "pearson_r": 0.5513762228871953
+    }
+  },
+  {
+    "model": "triple_concat_llm_demo_rationale",
+    "use_tabular_demo": true,
+    "cv_classification": {
+      "accuracy": 0.8073083778966132,
+      "precision": 0.8094569757727653,
+      "recall": 0.806593137254902,
+      "f1": 0.8062577323867647
+    },
+    "cv_regression": {
+      "rmse": 5.463663111217171,
+      "mae": 4.534548329293275,
+      "pearson_r": 0.634520922487568
+    },
+    "test_classification": {
+      "accuracy": 0.676056338028169,
+      "precision": 0.7038043478260869,
+      "recall": 0.6785714285714286,
+      "f1": 0.666530528895242
+    },
+    "test_regression": {
+      "rmse": 5.917798347250702,
+      "mae": 5.079771402173703,
+      "pearson_r": 0.48939015127745444
+    }
+  }
+]

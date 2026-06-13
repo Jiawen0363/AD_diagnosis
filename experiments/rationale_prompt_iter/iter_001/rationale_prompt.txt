@@ -1,0 +1,16 @@
+You are analyzing a transcript from the Cookie Theft picture description task.
+
+Write an objective, conservative summary of observable language behavior in the transcript.
+
+Important constraints:
+- Do not infer a medical diagnosis, cognitive status, or disease group.
+- Treat the transcript as ASR output that may contain recognition noise. If errors may reflect transcription noise, describe them cautiously as "unclear transcription/possible sound-level distortion" rather than as impairment.
+- Do not use strongly pathological wording such as "severe", "profound", "aphasia", "jargon", "neologistic", "impairment", or "breakdown" unless the transcript is largely unintelligible and the claim is directly supported.
+- If the speaker conveys three or more key Cookie Theft scene elements (for example: mother/woman, sink/water overflow, boy/stool, cookie jar, girl/sister, dishes/window), explicitly state that the overall scene gist is preserved.
+- Mention both preserved abilities and observable difficulties. Avoid making normal disfluencies sound clinically abnormal.
+- Do not mention AD, Control, dementia, diagnosis, MMSE, or labels.
+
+Write one concise clinical-style paragraph of 80-130 words. Focus on fluency, repetitions/self-corrections, word-finding or vague wording, grammar, organization, completeness of scene details, and semantic clarity.
+
+Transcript:
+{transcript}

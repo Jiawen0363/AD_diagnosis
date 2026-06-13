@@ -1,0 +1,8 @@
+Method,Embedding model,Classification Model,F1,Acc
+TF-IDF (transcript),-,LR,0.803,0.803
+TF-IDF (transcript),-,SVC,0.789,0.789
+Embedding (transcript),BAAI/bge-m3,SVC,0.774,0.775
+Embedding (transcript),text-embedding-3-small,SVC,0.718,0.718
+Embedding (transcript),text-embedding-3-large,SVC,0.803,0.803
+Embedding (transcript+rationale),text-embedding-3-small,SVC,0.774,0.775
+Embedding (transcript+rationale),text-embedding-3-large,SVC,0.746,0.746

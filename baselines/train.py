@@ -107,3 +107,41 @@ def run_vector_fold(
         return regression_metrics(y_val, y_pred)
 
     raise ValueError(f"Unknown task: {task}")
+
+
+def fit_and_predict(
+    x_train: np.ndarray,
+    y_train: np.ndarray,
+    x_test: np.ndarray,
+    task: str,
+    model_name: str,
+) -> np.ndarray:
+    if task == "classification":
+        estimator = get_classifier(model_name)
+    elif task == "regression":
+        estimator = get_regressor(model_name)
+    else:
+        raise ValueError(f"Unknown task: {task}")
+
+    estimator.fit(x_train, y_train)
+    return estimator.predict(x_test)
+
+
+def fit_and_predict_tfidf(
+    x_train: list[str],
+    y_train: np.ndarray,
+    x_test: list[str],
+    task: str,
+    model_name: str,
+    tfidf_config: dict,
+) -> np.ndarray:
+    if task == "classification":
+        estimator = get_classifier(model_name)
+    elif task == "regression":
+        estimator = get_regressor(model_name)
+    else:
+        raise ValueError(f"Unknown task: {task}")
+
+    pipeline = build_tfidf_pipeline(estimator, tfidf_config)
+    pipeline.fit(x_train, y_train)
+    return pipeline.predict(x_test)

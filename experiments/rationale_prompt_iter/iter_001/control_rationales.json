@@ -1,0 +1,92 @@
+[
+  {
+    "source_group": "Control",
+    "index": "3",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso002.wav",
+    "label": "0.0",
+    "mmse": "26",
+    "speech": "O K I SEE EMAM DOING THE DISHES IN THE WATERS OVERFLOWING FROM THE SINK AND SHE SIN SOU BE COMPLETELY AH OBLIVIOUS OF IT A VE A CHILDREN IN THE PICTURE WHOI PRESUME OUR HERS ARE CLIMBING ONE O THE BOYS CLIMBING ON A OR STANDING ON IT A STOOL THAT'S ABOUT TO FALL OVER PUTTING HIS HAND IN THE COOKI JAR ON THE TOP SHELF AND HIS SISTER OR COUSIN OR WHOEVER THE GIRL IS IS REACHING UP FOR A COOKIE ON THE WINDOW IS OPEN THERE'S A PATHWAY A WITH GARDEN ON EITHER SIDE IT LOOKS LIKE THERE'S SOMETHING ELSE ON THE SINK UNGIN ON THE COUNTERTOP DISHES THEN THAT'S ON THE MOTHER HAS AN APRONON SHE O ISDR EST IN THE A MISSUS BEAVER STYLE WITH THE VERY WITH AN APRON AND THE OM A NICE DRESS AND SHOES AND SO FORTH AND I DON'T UNDERSTAND WHY SHE'S NOT DURNING WATER OFF BUT THIT'S RIGHT OF THE DELA AND THERE'S CURTAINS ON THE WINDOW AND THERE'S PANES IN THE WINDOWS MA ALL PAINS AND THAT'S ABOUT IT",
+    "rationale": "The speaker produces a fluent, largely intelligible description that preserves the overall scene gist, mentioning the mother, overflowing sink, boy on a stool reaching for the cookie jar, a girl, open window, and garden pathway. Speech includes frequent disfluencies such as revisions (\"CLIMBING ON A OR STANDING ON IT A STOOL\"), repetitions (\"WITH THE VERY WITH AN APRON\"), and fillers (\"AH\"). Multiple words appear as possible sound-level distortions or unclear transcription (e.g., \"EMAM,\" \"SIN SOU BE,\" \"UNGIN,\" \"O ISDR EST,\" \"MISSUS BEAVER STYLE,\" \"DURNING,\" \"THIT'S RIGHT OF THE DELA,\" \"MA ALL PAINS\"), making it uncertain whether these reflect word-finding difficulty or recognition noise. Grammatical structure is loosely organized with run-on phrasing, but core semantic content remains clear."
+  },
+  {
+    "source_group": "Control",
+    "index": "4",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso018.wav",
+    "label": "0.0",
+    "mmse": "29",
+    "speech": "JIS LOOK AT THIS WONE AND TELL ME EVERYTHING YOU SEE GOING AR MA MAA MAY HAVE IM A GOOD DAY PISH SEE THAT ED OF THE GOOD DAYET HIW TE KER'S A A IN THE COOKA JAR IN THE LAT AN THE A NOT TE LETTER BUT THE HAS ARS TURNIN OP SHE'S A PREOCCUPIED WITH H M EVEN THOUGH E'S NOT LOOKING AT HIM AND SHE FORGOT THE TURN OT HER WATER OFF IN HER SINK IS OVERFLOWING GIIN A GIVIN HER A FLOW AWIY AND HER DAUBTER THE LITTLE WOYS SISTED SHE'S JUST LAUGHING SHE'S HAVIN A BOTLE SHE'S IN JOHN EVERYMI IN THIS BUT AT THE SAME TIME SHE OU ONL THE COOKI BEFORE YOU FALL I THAT IS JUST ITS DESCOL OF CAROTI BAY FOR BUT SHE SEEMED TO HAVE A SMILE ON THE FACE I GUESS YO SE WER SOLVAN THE NAME I JUST DEAL WITH IT AS A CONL I THINK YOU",
+    "rationale": "Observable language behavior includes preserved narrative content alongside frequent sound-level distortions that may reflect transcription noise. The speaker conveys key Cookie Theft elements: a woman forgetting the tap, the sink overflowing, a cookie jar, and a laughing girl (the boy’s sister). Speech contains repetitions (e.g., “A A IN THE COOKA JAR”), self-corrections, and occasional vague phrasing (e.g., “THE LITTLE WOYS SISTED”). Grammar is mostly functional but has occasional omission of function words. Organization is somewhat fragmented, yet the scene gist is preserved. Semantic clarity is partially reduced by possible ASR errors, though intended meaning remains largely recoverable."
+  },
+  {
+    "source_group": "Control",
+    "index": "11",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso003.wav",
+    "label": "0.0",
+    "mmse": "30",
+    "speech": "STARTING FROM THE LEFT I SEE TWO CHILDREN STANDING ON A TIPPING STOOL REACHING FOR THE COOKING JARG THE BOY IS UP ON THE TOP OF THE STOOL OBVIOUSLY GETTING THE COOKIES FOR THE LITN HIS EGR ER SISTER MAM IS WASHING THE DISHES ON WHILE THE SINK IS OVERFLOWING OR DRA I WHITE DU YE DOIN THE DISHES AND NI REALLY SOUR WHAT'S GOIN ON OUT THUR OUT OUT ON THE OTHER SIDE OF THE WINDOW AH THERE'RE SOME DISHES THERE ON THE SINK HAT REMAIN TO BE DONE",
+    "rationale": "The speaker produces a coherent description of the Cookie Theft picture, conveying multiple key elements including the children, tipping stool, cookie jar, mother washing dishes, overflowing sink, and window. Overall scene gist is preserved. Speech is largely fluent but contains several unclear segments that likely reflect ASR noise or possible sound-level distortion (e.g., “cooking jarg” for “cookie jar,” “litn,” “egr er,” “OR DRA I WHITE DU YE DOIN”). Repetitions such as “OUT THUR OUT OUT” and brief self-interruptions (“NI REALLY SOUR WHAT'S GOIN ON”) occur, though their origin is uncertain given potential transcription artifacts. Grammatical structure is mostly simple and intact, with occasional incomplete phrases. Semantic content remains largely clear despite these surface-level disruptions, and the description includes appropriate details about the scene."
+  },
+  {
+    "source_group": "Control",
+    "index": "27",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso172.wav",
+    "label": "0.0",
+    "mmse": "30",
+    "speech": "GOOD MUSED THE PICTURE O BOT BOUT BURST AM HALTE  THINK AS OVERFLOWING ATHER IS WASHING DISHES OR AN ADULT IS WASHING DISHES WERE IT TWOTIROM IN TH COOKY JAN MILES ON HE STOR ANE STORES OVER TRANNIN THE LITTLE GIRL WAS REACHING FOR A COOKAS ROM THE LITTLE BOY I ASK HE TOL TO FALLS OVER THERE IS A WINDOW AN A BUSHY IN PAR OUTSIDE THE WINDOW IN A GLIMPSE OF ANOTHER WINDOW AND ANOTHER PART OF THE HOUSE WHERE CURTAINS WITH TIEBACKS OR DISHES S DISH TOWS THEIR ARE DISH TOWS BLAN NO WON  ONE RUVWAS ON ONE YE TOV I ON TA REAVISH TOPTWO CUFFS LAK CABINS PAVRON GRASS AND TREES ON HOTTES CROI OUNTAINPONS  IT DILENT",
+    "rationale": "The output contains frequent sound-level distortions and likely ASR noise, leaving many words only partially intelligible. The speaker nevertheless conveys the main Cookie Theft elements: overflowing sink, an adult washing dishes, a cookie jar, a girl reaching, and a boy on a stool about to fall—indicating preserved scene gist. Self-corrections (e.g., “or an adult is washing dishes”) and repetition are present. Background details such as windows, curtains, dish towels, bushes, and outdoor elements are attempted, but these portions become increasingly unintelligible due to apparent transcription noise, complicating evaluation of word-finding. The narrative follows a logical order but is fragmented by false starts and phonemic distortions of uncertain origin. Overall, the sample is characterized by interrupted fluency and pervasive segmental distortions, yet the central thematic content remains discernible."
+  },
+  {
+    "source_group": "Control",
+    "index": "29",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso157.wav",
+    "label": "0.0",
+    "mmse": "29",
+    "speech": "CALQE OR THEREISPI AND ONLY THIS WLENT IME TO SAY THE MOTHER IS DRYIN A PLATE THE WATERS SANK OF CLOB YOU LI WAR WATER GOING OVER AN SVICE IN ON TO THE LOOR AND AS THE BOYS FALLIN OFF THE SCOOL GETTING HOOKIES FROM THE FOOKY YOARE ANLY GIRL'S PUTTIN HER FINGER TER WHAT WHICH MEENS I WILL COWLARK SOMETHING LIKE THAT OH SHOOSE YOUR GETTIN WETTIN THE MOTOW LOOKING OUTSIDE YOU DON'T SEE IT GOING AN ANYTHING SNOWIN TET MAY TOO OUT ONLY THEN TOMARGO ILE REACTIONIZED HE AS THE WATER'S BOWIN OVEN THE BOY BALLING OFF THE STOOL O KE HURRY I DON'T KNOW THATS TA'S ACTION I DON'T FE ES NONE AN THE PUIA RN",
+    "rationale": "The speaker conveys multiple key Cookie Theft scene elements (the mother drying a plate, water overflowing onto the floor, the boy falling off a stool while taking cookies, and the girl’s gesture), preserving the overall scene gist. The sample is marked by frequent sound-level distortions and ambiguous segments (e.g., \"sank of clob,\" \"scoo,\" \"fooky yoare,\" \"cowlark,\" \"bowin oven\"), which may reflect ASR noise rather than intrinsic word-finding errors. Utterances are fragmented, with false starts, self-interruptions (\"oh choose your gettin wettin\"), and occasional abandoned phrases. While grammar remains simple, relying heavily on present progressive forms, semantic clarity is intermittently compromised by these surface disruptions. Nonetheless, core content words remain recognizable, and the narrative’s essential action sequence emerges despite the pervasive clarity issues."
+  },
+  {
+    "source_group": "Control",
+    "index": "54",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso296.wav",
+    "label": "0.0",
+    "mmse": "30",
+    "speech": "AH THE SINX RUNNIN OVER WYTER'S GONE O OR HERE THE BOY THE STEP LADDERS TURNIN LUNDERIES LAKES AND HE'S STELL IN COOKIE 'S ALL THE COOE JAR AN SHE'S THA IN FOR COIES THE GIRL COMING BACK TO THE SAINT LEL SEE HERE  MAMMA STEPPIN IN THE WATERUS I SENT THE SANE LE RINDIN OVER SHE'S DRY IN DISHES TE ME WANT TO DO TOVO THERE IS CERTIN THAT I DON'T WHAT IT IS WITNO MA GRASS IT SINGS OH WELL NOW IT IS THAT I DON'T NOW IN ANS YES IT T EIN BEING SOM PIT  GO A I CON IT GO I DON'T SEE ANYTHING ELSE THERE SHE IS STARED IN IN THE WATER SEC A NO I THAT'S FELL'S SOTME DOWN NEAR WHAT I CAN SEE WER  WEGN ALMANI HAL SO FAR AN HE'S ON A A STOOL A'S GOIN ALL OVER A'LL AY STEALIN OKY THERE'S A PLAHT IN TWO PAPS ON THE SANKAN SHE'S OUT O FLIHT  NERVIN AND D SEE ANYTHING ABT GARQE",
+    "rationale": "In this Cookie Theft picture description, the speaker conveys multiple key scene elements—overflowing sink, boy on a stool stealing from a cookie jar, a girl, and a woman drying dishes—indicating that the overall gist is preserved. The transcript appears heavily affected by speech recognition noise, with frequent non-word fragments (e.g., “SINX,” “LUNDERIES LAKES,” “SANKAN,” “FLIHT NERVIN”) that obscure semantic clarity. Observable language behaviors include false starts, self-corrections, and repetitions (“A STOOL A’S GOIN ALL OVER A’LL AY STEALIN”). Statements of uncertainty (“I DON’T WHAT IT IS,” “I DON’T NOW”) and fragmented phrasing are present. While some pauses may suggest word-finding difficulty, substantial ASR distortion limits confident interpretation. Overall, connected speech is effortful, halting, and grammatically incomplete, though the speaker communicates the central scene content."
+  },
+  {
+    "source_group": "Control",
+    "index": "64",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso278.wav",
+    "label": "0.0",
+    "mmse": "28",
+    "speech": "ANY ACTION AN ANY SEATS AL WA THROUGH THE SAMS OVERFLOW IN THA LADY VOSH DISH AND BOYS UP ON THE STOOL STOOLS A FALN E THER GETTING A COOKY DOWN THE COOKAND FID A GOD REACHING UP FOR THE COKY AH THE WINDOWS OPEN THE DO ORS OPENED THE CANNON AT THE MUNET",
+    "rationale": "The transcript contains densely clustered recognition errors, with many nonword strings (e.g., “AL WA,” “COOKAND FID A GOD”) that likely reflect sound-level distortion rather than intrinsic speech errors. Despite this, the speaker conveys multiple key elements of the Cookie Theft picture: water overflow (“SAMS OVERFLOW”), a woman washing dishes (“LADY VOSH DISH”), a boy on a stool reaching for a cookie (“BOYS UP ON THE STOOL… GETTING A COOKY DOWN”), a second child (“GOD REACHING UP”), and open window/door. Thus, the overall scene gist is preserved. Observable features include a false start/repetition on “stool stools,” fragmented grammar, and a loosely structured, list-like organization. Semantic clarity is intermittently obscured by the dense noise, but core thematic content remains identifiable. Word-finding is not clearly evident given the pervasive transcription uncertainty."
+  },
+  {
+    "source_group": "Control",
+    "index": "74",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso257.wav",
+    "label": "0.0",
+    "mmse": "30",
+    "speech": "JUST LOOK AT THE PACTURE TELL ME A IT TIN ME TO SEE AN W GET COOKE DEAT CUIKEJA E INSTOR STOL UTE GIRLS TE SHUYE VICHAN WO  SSOW E YBA JGOR",
+    "rationale": "The transcript is a largely unintelligible string of words with extensive sound-level distortion, likely from ASR noise. Recognizable phrases include \"JUST LOOK AT THE PACTURE\" and isolated possible elements of the Cookie Theft scene, such as \"COOKE,\" \"STOL\" (stool?), \"GIRLS,\" and \"VICHAN\" (possibly kitchen). Ambiguous fragments like \"CUIKEJA\" (cookie jar?) and \"WO SSOW\" (water overflow?) further hint at scene content but remain too distorted for confident interpretation. The overall scene gist is not clearly conveyed; no coherent description of the mother, sink, or boy emerges. Grammatical structure is absent, and fluency, word-finding, or repetition patterns cannot be reliably evaluated. Semantic clarity is markedly limited. Therefore, this sample provides little interpretable linguistic information."
+  },
+  {
+    "source_group": "Control",
+    "index": "75",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso280.wav",
+    "label": "0.0",
+    "mmse": "29",
+    "speech": "THERE'S THE PICTURE IO IT'S FULL OF BOY HAD COOKY JAR AT TE MOT  TUEL WHICH IS TIPPING OVER AND  CIT IT AN THER WELL WINE OHE DID  DOMED TAT FOHER YET AND ALL THIS I AM BEHIND ANOTHER SAG QUASHIN FISH AN WATERIS RUNN OVER SHE MEST BE DAY DRAMING THE WIRES RUNNINGER IV ER NOT TO THE FLOOR SHE WENT THINK AND ADDED AND TA CATT  TE NIT TEGI DESHES LI LOOK DRIED ON THE COWTER OIEANOU TIK AT A MAN BAG TAT YE YARN FYLACK II NOT THE QUAIN OF A HALF OM THE WINDOW I H I THIN AO THINK AI A WERE THEY ALL WALK ON I E THA CLAME IM ISS AND YOU DID FIND THAT'S GREAT",
+    "rationale": "The transcript conveys key scene elements (boy, tipping cookie jar, overflowing water, dishes, window), preserving overall scene gist despite extensive output that is largely intelligible. The speaker produces fragmented utterances with frequent false starts, revisions, and repetitions (e.g., “I THIN AO THINK AI A WERE THEY ALL WALK ON”). There are phonemic and whole-word substitutions (“mot tuel,” “wine ohe,” “quashin fish,” “cowter”) that may reflect unclear transcription or possible sound-level distortion; they are not clearly neologistic. Word-finding is observable in vague terms (“this,” “that”) and abandoned phrases. Grammar is disrupted, with missing function words and incomplete clauses, though semantic intent remains partly recoverable. The output is effortful, with pauses and restarting, but the speaker does manage to name several concrete items and actions, indicating some preserved lexical retrieval and scene description ability."
+  },
+  {
+    "source_group": "Control",
+    "index": "78",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/train/diagnosis/train/audio/cn/adrso270.wav",
+    "label": "0.0",
+    "mmse": "30",
+    "speech": "MODEST GL INDISH AAN THE WERS WOING OVER AN DE BOY HE'S TAKING COKOOSE OUT OF THE CABINET AND HE'S TIP EN OTN STOLL IN THE GIRL IS WICHING FO ONE SHE HAS ONE FINGER TO HER MOUTH I SUC SISH A MOTER WOLE HEAR AND HIS HE AND THE LIGHTY HAS SOME ONE FOOTING BACK AT THE OTHER ONE UPS ET THE WINDO SOAPING DO SHE WAS ALREADY DRIED SOME DISHES TO WHEN WE CA CAME DOORIS OPEN OSO AR SEEK AS MANY MORE WIES SAID THAT AN KAY AAS PY IS HE ANY ONE COOKED EACH O THE FOTHER GARL LET IT DONT LET US AFTO COO KITCHEN O",
+    "rationale": "The transcript contains recognizable scene elements from the Cookie Theft picture: water overflow (“WERS WOING OVER”), a boy taking cookies while tipping on a stool (“BOY HE'S TAKING COKOOSE… TIP EN OTN STOLL”), a girl with a finger to her mouth (“GIRL IS WICHING… ONE FINGER TO HER MOUTH”), a mother figure (“MOTER”), and dish drying (“DRIED SOME DISHES… WINDO SOAPING”). Thus, the overall gist of the scene is preserved. However, large portions of the output consist of non-word strings and distorted sequences (e.g., “MODEST GL INDISH AAN,” “SUC SISH,” “LIGHTY HAS SOME ONE FOOTING BACK”), making it unclear whether these reflect recognition noise or underlying speech difficulties. Where intelligible, content appears relevant, but semantic clarity and grammatical structure are heavily obscured by probable sound-level transcription errors. Fluency and organization cannot be reliably assessed due to these pervasive distortions."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "source_group": "AD",
+    "index": "1",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt8.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "medium",
+    "reason": "Severely reduced semantic clarity and incoherent description despite preserved engagement suggest cognitive impairment typical of AD.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Severely reduced semantic clarity and incoherent description despite preserved engagement suggest cognitive impairment typical of AD.\"\n}",
+    "rationale": "The transcript consists largely of fragmented utterances and sound-level distortions, yielding limited intelligibility and propositional content. Key Cookie Theft elements are minimally conveyed: the word “cookie” appears several times, and a possible reference to “cleaning” is noted, but the description does not coherently depict the main actions or characters. The output comprises incomplete questions and short, disfluent segments, with frequent non-word strings (e.g., “RUDEUHSHTHAT'S,” “BUBURHAMEESAT”) that likely reflect ASR/recognition noise. Repetition of question frames (“what's happening,” “what's this”) and a closing social remark (“OH GOOD”) are present, showing preserved engagement. Grammatical structure is sparse, with no full sentences, and semantic clarity is severely reduced; the speaker’s intent to describe the picture is evident but the overall message remains largely uninterpretable."
+  },
+  {
+    "source_group": "AD",
+    "index": "7",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt37.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "medium",
+    "reason": "The description lacks identifiable scene elements and coherent meaning, consistent with the empty, disorganized speech characteristic of AD.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"medium\",\n  \"reason\": \"The description lacks identifiable scene elements and coherent meaning, consistent with the empty, disorganized speech characteristic of AD.\"\n}",
+    "rationale": "The transcript conveys very limited propositional content about the Cookie Theft picture; key scene elements (e.g., the overflowing sink, the boy stealing cookies) are not identifiable. The output is largely unintelligible, with many fused or distorted word strings (e.g., “SELECTEDFUL PANCIL,” “VICTOROL PSE,” “GLACIERSREGGER”), consistent with possible ASR/sound-level distortion. Recognizable fragments include “I SEE A GIRLS AN AN MATEAND,” suggesting an attempt to mention people, but the description is disorganized and lacks clear referential meaning. The sample exhibits frequent false starts, incomplete phrases, and repetitive question frames (“WHAT ELSE…,” “CAN YOU TELL…”), with minimal grammatical cohesion or semantic clarity. Overall, the message is not interpretable as a coherent description, though a few isolated content words appear."
+  },
+  {
+    "source_group": "AD",
+    "index": "9",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt44.wav",
+    "true_label": "AD",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "Preserved gist and absence of word-finding pauses, repetitions, or self-corrections point to typical speech with ASR distortion, not the semantic or lexical deficits typical of AD.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"Preserved gist and absence of word-finding pauses, repetitions, or self-corrections point to typical speech with ASR distortion, not the semantic or lexical deficits typical of AD.\"\n}",
+    "rationale": "The transcript conveys key elements of the Cookie Theft scene, such as a 'cookie jar,' 'mother,' and a boy who 'might fall,' reflecting preserved gist. References to a 'sister' and possible 'spilling' water suggest additional scene details, though distortion limits confirmation. The overall message is limited in intelligibility and propositional content due to numerous fused words and non-standard phonetic sequences, likely ASR noise or sound-level distortion. Speech flow is steady but largely unintelligible; no clear word-finding pauses, repetitions, or self-corrections are evident. Grammatical structure is fragmented, and semantic clarity is reduced. The speaker's attempt to describe the picture is apparent despite extensive surface disruptions, indicating preserved communicative effort. The sample thus conveys partial scene information but is largely uninterpretable in detail."
+  },
+  {
+    "source_group": "AD",
+    "index": "13",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt71.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "low",
+    "reason": "Disorganized, fragmented output with echoing of the prompt and minimal grammar, despite preserved gist, is consistent with AD-related discourse impairment, though ASR noise complicates interpretation.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"low\",\n  \"reason\": \"Disorganized, fragmented output with echoing of the prompt and minimal grammar, despite preserved gist, is consistent with AD-related discourse impairment, though ASR noise complicates interpretation.\"\n}",
+    "rationale": "The transcript captures a Cookie Theft description heavily affected by possible ASR/sound-level distortion, resulting in limited intelligibility. Key scene elements are partially referenced, including a child about to fall (“HE’S GOING TO FALL OFF”), a mother figure (“HAPPYMOTHER”), washing activity, and cookies, indicating preserved gist. The output is disorganized, consisting of fragmented word strings with minimal grammatical structure and prominent repetition of the examiner’s initial prompt, which may reflect echoing. No clear word-finding difficulty or self-correction is observed; unusual forms likely stem from recognition noise. While the overall message is difficult to follow, partial thematic content related to the picture remains discernible."
+  },
+  {
+    "source_group": "AD",
+    "index": "25",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt2.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "medium",
+    "reason": "Word-finding difficulty, fragmented phrases, and minimal grammatical structure suggest aphasic deficits typical of AD.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Word-finding difficulty, fragmented phrases, and minimal grammatical structure suggest aphasic deficits typical of AD.\"\n}",
+    "rationale": "The speaker attempts to describe the Cookie Theft picture, referencing several key elements such as a kid standing on a tilted stool, cookies, a sink, and a girl with two different shoes. The output is marked by frequent sound-level distortions and fused words (e.g., 'HAPPENINGHERE', 'ONAONIN'), consistent with ASR noise, which contribute to limited overall intelligibility. Content is conveyed in fragmented phrases with minimal grammatical structure. The speaker displays repetitions and self-corrections (e.g., 'IT'S AIT'S IT'S'), along with possible word-finding pauses as suggested by 'AACAN'T CIN KAN THINK.' Despite these disruptions, some core visual details are preserved, indicating that the gist of the scene is partially communicated."
+  },
+  {
+    "source_group": "AD",
+    "index": "30",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt7.wav",
+    "true_label": "AD",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "The transcript contains ASR distortion and sound-level errors but lacks word-finding pauses or circumlocutions typical of AD.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"The transcript contains ASR distortion and sound-level errors but lacks word-finding pauses or circumlocutions typical of AD.\"\n}",
+    "rationale": "The speaker conveys several key elements of the Cookie Theft scene, mentioning the boy about to fall off the ladder, the girl, and the mother washing dishes with water spilling onto the floor. After this, the output becomes largely unintelligible, with strings such as “OR ELSEPEPLE MITARIA… TEACO NAN” that appear heavily influenced by ASR distortion. The transcript includes fused words (“THEREAND”), potential sound-level errors (“PLAG,” “LATTER,” “SHANK”), and run-on phrasing, but no clear word-finding difficulty with pauses, placeholders, or circumlocutions. The message is partially interpretable; although coherence and intelligibility decline markedly in the second half, the initial portion preserves recognizable gist and relevant scene content."
+  },
+  {
+    "source_group": "AD",
+    "index": "34",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt4.wav",
+    "true_label": "AD",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "Content is informative with multiple key picture elements, and aberrant forms are attributed to ASR noise rather than word-finding deficits, making AD less likely.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Content is informative with multiple key picture elements, and aberrant forms are attributed to ASR noise rather than word-finding deficits, making AD less likely.\"\n}",
+    "rationale": "The transcript conveys multiple key elements of the Cookie Theft picture, including a boy on a three-legged stool reaching for cookies, a sister attempting to get one, water overflowing from the sink onto the floor, the mother not paying attention, and a tree visible outside. The narrative is loosely organized and the gist remains interpretable despite pervasive ASR/sound-level distortions that render many lexical items unrecognizable (e.g., “AMIDDAOV,” “DEFARGE,” “CHILEGESTULEAS,” “ADISIOUSWHOIS”). Occasional repetitions (e.g., “ANDAND”) are noted, but there is no clear evidence of word-finding difficulty; most aberrant forms are consistent with recognition noise rather than true retrieval failures. Overall, content is partially preserved with mild-to-moderate surface-level noise."
+  },
+  {
+    "source_group": "AD",
+    "index": "39",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt60.wav",
+    "true_label": "AD",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "Adequate semantic content, no word-finding difficulty, coherent focus, and self-prompting likely reflects examiner interaction rather than impairment.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Adequate semantic content, no word-finding difficulty, coherent focus, and self-prompting likely reflects examiner interaction rather than impairment.\"\n}",
+    "rationale": "The speaker conveys most key Cookie Theft scene elements, including a boy reaching for a cookie jar, a mother washing dishes, water overflowing from the sink, a girl, and a boy falling off a chair. Despite significant possible ASR/sound-level distortions (fused words, atypical spellings such as “WON'TOVE COKY” and “SAINT” for sink) that reduce superficial clarity, the overall gist remains interpretable. The description is organized as a list of observations, repeatedly using “anything else” and “what else is going on” as if self-prompting or responding to examiner cues. Utterances appear as fragmented phrases, possibly due to ASR segmentation, with no clear word-finding difficulty or self-correction patterns. Semantic content is adequate, and the message maintains a coherent focus on the picture."
+  },
+  {
+    "source_group": "AD",
+    "index": "45",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt25.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "medium",
+    "reason": "Clear word search for 'chair' indicates word-finding difficulty typical of AD, despite some ASR noise.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Clear word search for 'chair' indicates word-finding difficulty typical of AD, despite some ASR noise.\"\n}",
+    "rationale": "The speaker describes several Cookie Theft elements (boy taking cookies, girl assisting, mother washing dishes, sink overflowing, boy falling) and the overall message remains organized and interpretable despite frequent disruptions. Much of the surface distortion likely reflects ASR noise rather than word-finding difficulty, although a clear word search occurs for “chair” (“what you call… a chaira chair”). Speech is effortful, with false starts, repetitions, and filler syllables (e.g., “an te ya”, “te aa”); grammar is fragmented and lexical choices are occasionally imprecise, but the core scene is preserved and the description remains understandable."
+  },
+  {
+    "source_group": "AD",
+    "index": "70",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt23.wav",
+    "true_label": "AD",
+    "prediction": "AD",
+    "confidence": "medium",
+    "reason": "Severely disorganized and unintelligible output with absent grammatical structure suggests cognitive-linguistic impairment consistent with AD.",
+    "raw_response": "{\n  \"prediction\": \"AD\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Severely disorganized and unintelligible output with absent grammatical structure suggests cognitive-linguistic impairment consistent with AD.\"\n}",
+    "rationale": "The transcript is largely unintelligible, conveying limited propositional content with probable ASR/sound-level distortions. Isolated segments (\"THERE IT IS,\" \"STOOLES,\" \"LADY WATCHEN,\" \"WATER,\" \"PALSISTER\") may reference key Cookie Theft elements such as a stool, a watching woman, water, and a sibling, but the message is disorganized and lacks coherent phrasing. No overt word-finding difficulty (e.g., circumlocutions or abandoned words) is apparent; instead, the output consists of pervasive fused words and non-words, making grammatical structure absent. Interpretability is extremely limited, though the few recognizable content words suggest some gist of the scene is preserved."
+  },
+  {
+    "source_group": "Control",
+    "index": "4",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt67.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "The description is coherent, fluent, with no word-finding issues, and errors are attributed to ASR noise.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"The description is coherent, fluent, with no word-finding issues, and errors are attributed to ASR noise.\"\n}",
+    "rationale": "The speaker conveys the main elements of the Cookie Theft scene: a woman washing dishes, water overflowing, children taking cookies, a boy about to fall from a stool, and a window overlooking a yard. The description is organized and interpretable, with a coherent narrative and personal commentary. Speech is generally fluent, with occasional discourse markers like “of course.” There is no overt word-finding difficulty or search behavior. Grammatical constructions are mostly intact, though minor inconsistencies (e.g., possible subject–verb agreement) might partly reflect ASR distortion. Lexical choices are appropriate; fused forms such as “chapple” for “topple” and sound-level distortions like “casethe stools chipping” for “cause the stool is tipping” are consistent with ASR noise rather than production errors. The speaker adds interpretive remarks (serene but “out of it”) and a reflective comment about kitchen windows, demonstrating preserved coherence and pragmatic intent."
+  },
+  {
+    "source_group": "Control",
+    "index": "5",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt40.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "The description is coherent, organized, and preserves gist with only minor anomalies attributable to ASR noise, not typical AD language deficits.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"The description is coherent, organized, and preserves gist with only minor anomalies attributable to ASR noise, not typical AD language deficits.\"\n}",
+    "rationale": "The transcript conveys key Cookie Theft elements: children trying to get cookies, a boy on a stool about to fall as he hands his sister a cookie, and a mother daydreaming while water overflows the sink as she dries a dish. The description remains organized and interpretable, progressing from the children to the mother and then commenting on the house. The speaker’s output is largely fluent with occasional fillers (e.g., “ah,” “guh,” “umi”) and mild vagueness (“of some kind,” “or something”). Grammar is mostly preserved but contains minor anomalies (e.g., “her in a fog,” “hive a sufficient income”). Several fused or distorted strings (e.g., “ISSANASSTOOL,” “THECOKE,” “LEA WATER,” “MEEGUAN”) likely reflect ASR/sound-level noise rather than word-finding difficulty. Overall, the gist is preserved."
+  },
+  {
+    "source_group": "Control",
+    "index": "12",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt58.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "Organized narrative with preserved gist, superficial disruptions likely ASR not language deficits.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"Organized narrative with preserved gist, superficial disruptions likely ASR not language deficits.\"\n}",
+    "rationale": "The speaker conveys several key Cookie Theft scene elements: a boy on a stool reaching for a cookie jar loses balance and is about to fall, his sister intends to get a cookie, and a woman distracted by other thoughts lets the water overflow, with dirty dishes and cups present. The account remains organized and interpretable overall. Surface-level distortions such as fused words (“ISSTOOL,” “SISTERSN IKOING,” “AHAND”) and the odd phrase “anticipating the mall” likely reflect ASR or sound-level noise rather than word-finding difficulty. One filled pause (“UM”) and a minor tense shift (“stood” for standing) appear, but there is no repetitive searching or self-correction. The message preserves the gist and essential content of the picture despite these superficial disruptions."
+  },
+  {
+    "source_group": "Control",
+    "index": "17",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt11.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "The rationale attributes all surface distortions to ASR noise and highlights preserved logical organization, detailed semantics, and absence of word-finding difficulty.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"The rationale attributes all surface distortions to ASR noise and highlights preserved logical organization, detailed semantics, and absence of word-finding difficulty.\"\n}",
+    "rationale": "The speaker conveys all key Cookie Theft scene elements, including the boy on a falling stool reaching for a cookie jar on a high shelf, the girl receiving a cookie and gesturing for quiet, the woman drying a plate while water overflows from the sink onto the floor, and outdoor details like a driveway, garage, bushes, and another window. The description is logically organized and interpretable despite frequent fused and distorted surface forms (e.g., “WOLITLE,” “FOSOTESTRUNNING,” “COOKIJAR”), which likely reflect ASR or sound-level noise rather than word-finding difficulty. Overall gist is preserved. Fluency is largely maintained, with mild grammatical irregularities (e.g., “THEM WAS OVERFLOWING”) and one instance of self-correction (“GARAGEWEN OF THE GARAG”). Semantic content remains coherent and detailed; no overt word-search behaviors are observed."
+  },
+  {
+    "source_group": "Control",
+    "index": "21",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt52.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "The description maintains coherent thematic content without word-finding difficulty, with disruptions attributed to ASR distortion rather than semantic or lexical deficits typical of AD.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"The description maintains coherent thematic content without word-finding difficulty, with disruptions attributed to ASR distortion rather than semantic or lexical deficits typical of AD.\"\n}",
+    "rationale": "The speaker conveys key Cookie Theft elements, including a girl, boy, stool, water overflowing, and dishwashing. Despite extensive non-word strings (e.g., “HOUNDSGIRL,” “OATHCAN,” “SHRAFTSBA”) that likely reflect ASR/sound-level distortion, the overall message remains organized and interpretable around the main actions. Output contains fused words, a false start (“I THANK WE”), and fragmented phrasing, but the gist—water filling over while someone dries dishes and wipes a towel—is preserved. There is no overt word-finding difficulty; instead, intelligibility is limited by pervasive phonetic-level noise. Grammatical structure is broken, yet the thematic content is partially recoverable, and the description retains relevant propositional information."
+  },
+  {
+    "source_group": "Control",
+    "index": "42",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt27.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "Narrative is coherent and complete with no word-finding difficulty; odd forms are clearly attributed to ASR distortion, not lexical retrieval failures.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"Narrative is coherent and complete with no word-finding difficulty; odd forms are clearly attributed to ASR distortion, not lexical retrieval failures.\"\n}",
+    "rationale": "The speaker conveys key Cookie Theft elements: mother daydreaming, overflowing sink, hungry children reaching for a cookie jar, boy climbing a stool, and a fall due to improper weight placement. Contextual details include an open window and a country house. Despite pervasive word fusions and non-standard spellings consistent with ASR/sound-level distortion that reduce clarity in many phrases, the description remains organized and the overall gist is preserved. The narrative follows a logical sequence with a coherent story arc. Fluency is largely maintained, with occasional fillers (“UM”) and a minor self-correction. Semantic content is rich, though surface intelligibility is often compromised. No clear word-finding difficulty is observed; the odd word forms likely reflect recognition errors rather than lexical retrieval failures."
+  },
+  {
+    "source_group": "Control",
+    "index": "50",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt47.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "high",
+    "reason": "Organized, detailed, and clear description without word-finding difficulties suggests control.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"high\",\n  \"reason\": \"Organized, detailed, and clear description without word-finding difficulties suggests control.\"\n}",
+    "rationale": "The speaker conveys numerous key elements of the Cookie Theft scene, including the boy reaching into the cookie jar, handing a cookie to his sister, the tipping stool, the mother washing dishes with water overflowing, and outdoor details such as shrubs and a tree. The description is organized, proceeding from the children to the mother and then the outdoor environment, resulting in an interpretable message. Frequent fused words and unusual spellings (e.g., “HAKONERYOUNG,” “REACHIM,” “COOKIN JAR OPENEDHE’S”) suggest possible ASR or sound-level distortion rather than word-finding difficulty. There are occasional mild grammatical omissions and vague phrases (“I presume,” “I guess”), but the overall semantic content remains clear. Fluidity is generally maintained, with no frank word-retrieval pauses or repeated unsuccessful searches."
+  },
+  {
+    "source_group": "Control",
+    "index": "58",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt53.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "The description includes many core elements, remains organized, and conveys the gist despite disfluencies.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"The description includes many core elements, remains organized, and conveys the gist despite disfluencies.\"\n}",
+    "rationale": "The transcript conveys many core elements of the Cookie Theft scene, including the mother, overflowing sink, puddle, boy on a stool reaching for cookies, handing a cookie to his sister, another child sneaking a cookie, an open window, and trees outside. The description remains generally organized and the overall message interpretable. Speech is marked by frequent filled pauses (e.g., “aah,” “ahah”), self-repairs, and what appear to be ASR/sound-level distortions producing fused words and unusual spellings. Some utterances are incomplete or vague (e.g., “anything else ter oruse to pick up”), but no overt, repeated word-search behavior is observed. Grammatical structure is often fragmented, yet the speaker preserves sufficient semantic content to maintain the gist of the picture."
+  },
+  {
+    "source_group": "Control",
+    "index": "65",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt38.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "Disruptions stem from ASR noise rather than retrieval failures, and no clear circumlocution or word search is observed.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Disruptions stem from ASR noise rather than retrieval failures, and no clear circumlocution or word search is observed.\"\n}",
+    "rationale": "In this Cookie Theft description, the speaker references several key elements such as dish-drying, water splashing onto the floor, a boy reaching into the cookie jar, a stool, and a possible dangerous situation involving a girl, indicating partial gist preservation. The output is heavily marked by likely ASR noise: fused words (‘ROTHEREIS’), distorted segments (‘FLOORATE’, ‘SSTOLE’), and fragmented sequences that obscure grammatical structure. The message is somewhat interpretable but contains many unintelligible stretches; there is no clear evidence of repeated word search, circumlocution, or self-correction. Fluency is disrupted by these acoustic-level distortions rather than by overt retrieval failures. Semantic content is partially conveyed, though syntactic cohesion is limited, and the description remains loosely organized around the scene."
+  },
+  {
+    "source_group": "Control",
+    "index": "67",
+    "file": "/content/gdrive/My Drive/Drexel PhD/Data/AD/ADRS/test/diagnosis/test/audio/adrsdt30.wav",
+    "true_label": "Control",
+    "prediction": "Control",
+    "confidence": "medium",
+    "reason": "Overall gist is preserved and no clear word-finding difficulties, with disruptions likely due to normal disfluency and acoustic noise.",
+    "raw_response": "{\n  \"prediction\": \"Control\",\n  \"confidence\": \"medium\",\n  \"reason\": \"Overall gist is preserved and no clear word-finding difficulties, with disruptions likely due to normal disfluency and acoustic noise.\"\n}",
+    "rationale": "The speaker conveys several key elements of the Cookie Theft picture: a boy retrieving cookies from a high shelf in a precarious position on a stool, a mother washing dishes while not paying attention, an overflowing sink, and a peaceful outdoor scene. The overall gist is preserved and the description remains interpretable despite notable surface disruptions. Speech includes false starts, self-corrections (e.g., “but I didn't... I said...”), and occasional grammatical omissions such as missing articles or prepositions. Some portions, especially toward the end, exhibit limited intelligibility with fused words and possible ASR/sound-level distortions (e.g., “HO CATCRIED A HOXSACROSS BOIN”). Word-finding difficulty is not clearly apparent; distorted forms likely reflect acoustic-level noise. Fluency is mildly reduced by these restarts and unintelligible segments."
+  }
+]

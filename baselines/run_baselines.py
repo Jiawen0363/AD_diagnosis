@@ -18,8 +18,8 @@ sys.path.insert(0, str(SCRIPT_DIR))
 sys.path.insert(0, str(SCRIPT_DIR.parent / "evaluation"))
 
 from cv import load_config, load_or_create_folds
-from data import PROJECT_ROOT, get_xy, load_train_data
-from features import get_text_embeddings
+from data import PROJECT_ROOT, get_xy, get_xy_with_rationale, load_train_data, load_train_data_with_rationale
+from features import get_concat_text_embeddings, get_text_embeddings
 from train import run_fold, run_vector_fold
 
 
@@ -186,6 +186,73 @@ def run_embedding_baseline(config: dict) -> tuple[list[dict], pd.DataFrame]:
     return rows, aggregate_fold_results(rows)
 
 
+def run_rationale_concat_baseline(config: dict) -> tuple[list[dict], pd.DataFrame]:
+    train_df = load_train_data_with_rationale()
+    transcripts, rationales, y_cls, y_reg, subject_ids = get_xy_with_rationale(train_df)
+    cls_folds, reg_folds, _ = load_or_create_folds()
+
+    embedding_config = {
+        **config["embedding"],
+        "provider": "openai",
+        "model_name": "text-embedding-3-small",
+    }
+    baseline_name = (
+        "embedding_openai_text-embedding-3-small_transcript_rationale_concat"
+    )
+
+    embeddings = get_concat_text_embeddings(
+        transcripts=transcripts,
+        rationales=rationales,
+        subject_ids=subject_ids,
+        embedding_config=embedding_config,
+        project_root=PROJECT_ROOT,
+    )
+
+    rows: list[dict] = []
+
+    for fold_idx, (train_idx, val_idx) in enumerate(cls_folds):
+        metrics = run_vector_fold(
+            features=embeddings,
+            y=y_cls,
+            train_idx=train_idx,
+            val_idx=val_idx,
+            task="classification",
+            model_name="svc",
+        )
+        rows.append(
+            {
+                "baseline": baseline_name,
+                "embedding_model": embedding_config["model_name"],
+                "task": "classification",
+                "model": "svc",
+                "fold": fold_idx,
+                **metrics,
+            }
+        )
+
+    for fold_idx, (train_idx, val_idx) in enumerate(reg_folds):
+        metrics = run_vector_fold(
+            features=embeddings,
+            y=y_reg,
+            train_idx=train_idx,
+            val_idx=val_idx,
+            task="regression",
+            model_name="ridge",
+        )
+        rows.append(
+            {
+                "baseline": baseline_name,
+                "embedding_model": embedding_config["model_name"],
+                "task": "regression",
+                "model": "ridge",
+                "fold": fold_idx,
+                **metrics,
+            }
+        )
+
+    return rows, aggregate_fold_results(rows)
+
+
 def save_results(
     rows: list[dict], summary_df: pd.DataFrame, results_dir: Path, baseline: str
 ) -> None:
@@ -208,7 +275,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run AD_diagnosis baselines")
     parser.add_argument(
         "--baseline",
-        choices=["tfidf", "embedding", "teacher"],
+        choices=["tfidf", "embedding", "rationale_concat", "teacher"],
         default="tfidf",
         help="Which baseline to run",
     )
@@ -241,6 +308,12 @@ def main() -> None:
             f"{config['embedding']['model_name']} embedding + classifier/regressor"
         )
         rows, summary_df = run_embedding_baseline(config)
+    elif args.baseline == "rationale_concat":
+        print(
+            "Running transcript+rationale concat baseline: "
+            "text-embedding-3-small + SVC/Ridge"
+        )
+        rows, summary_df = run_rationale_concat_baseline(config)
     else:
         raise NotImplementedError("Teacher baseline is not implemented yet.")
 

@@ -1,0 +1,107 @@
+[
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 0,
+    "accuracy": 0.8529411764705882,
+    "precision": 0.8529411764705882,
+    "recall": 0.8541666666666667,
+    "f1": 0.8528138528138528
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 1,
+    "accuracy": 0.7878787878787878,
+    "precision": 0.7969924812030075,
+    "recall": 0.7904411764705883,
+    "f1": 0.7870967741935484
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 2,
+    "accuracy": 0.8181818181818182,
+    "precision": 0.8180147058823529,
+    "recall": 0.8180147058823529,
+    "f1": 0.8180147058823529
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 3,
+    "accuracy": 0.6363636363636364,
+    "precision": 0.6428571428571428,
+    "recall": 0.6323529411764706,
+    "f1": 0.6278195488721805
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "classification",
+    "model": "svc",
+    "fold": 4,
+    "accuracy": 0.8181818181818182,
+    "precision": 0.8198529411764706,
+    "recall": 0.8222222222222222,
+    "f1": 0.8180147058823529
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 0,
+    "rmse": 5.5125696068669585,
+    "mae": 4.436662505654728,
+    "pearson_r": 0.6482458099752383
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 1,
+    "rmse": 5.900520354860657,
+    "mae": 5.036826740611684,
+    "pearson_r": 0.6166356124454919
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 2,
+    "rmse": 6.010063654794859,
+    "mae": 4.814056743275035,
+    "pearson_r": 0.5511342590597632
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 3,
+    "rmse": 5.9056414412760585,
+    "mae": 5.245226310961174,
+    "pearson_r": 0.5297298489572553
+  },
+  {
+    "baseline": "embedding_openai_text-embedding-3-small_transcript_rationale_concat",
+    "embedding_model": "text-embedding-3-small",
+    "task": "regression",
+    "model": "ridge",
+    "fold": 4,
+    "rmse": 5.910688452134033,
+    "mae": 5.3567533204049775,
+    "pearson_r": 0.6725857539442964
+  }
+]

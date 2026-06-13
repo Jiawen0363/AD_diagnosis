@@ -1,0 +1,40 @@
+[
+  {
+    "feature_set": "transcript",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "embedding_model": "text-embedding-3-small",
+    "train_size": 166,
+    "test_size": 71,
+    "classification": {
+      "accuracy": 0.7183098591549296,
+      "precision": 0.7211538461538461,
+      "recall": 0.719047619047619,
+      "f1": 0.7178060413354531
+    },
+    "regression": {
+      "rmse": 5.654956511857264,
+      "mae": 4.70068528618611,
+      "pearson_r": 0.5667715893458455
+    }
+  },
+  {
+    "feature_set": "concat",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "embedding_model": "text-embedding-3-small",
+    "train_size": 166,
+    "test_size": 71,
+    "classification": {
+      "accuracy": 0.7746478873239436,
+      "precision": 0.7780448717948718,
+      "recall": 0.7753968253968254,
+      "f1": 0.7742448330683624
+    },
+    "regression": {
+      "rmse": 5.612450602724333,
+      "mae": 4.735927219122228,
+      "pearson_r": 0.5698619827463001
+    }
+  }
+]

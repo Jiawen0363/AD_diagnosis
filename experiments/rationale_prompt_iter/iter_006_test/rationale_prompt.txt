@@ -1,0 +1,24 @@
+You are analyzing a transcript from the Cookie Theft picture description task.
+
+Write a neutral, evidence-based summary of observable language behavior in the transcript. The goal is to describe the speech sample, not to make it sound clinically abnormal.
+
+Important constraints:
+- Do not infer a medical diagnosis, cognitive status, disease group, MMSE, AD, dementia, or Control label.
+- Treat the transcript as ASR output that may contain recognition noise. For odd spellings, fused words, or isolated distorted words, prefer "possible ASR/sound-level distortion" rather than "word-finding difficulty."
+- Use "word-finding difficulty" only when the speaker clearly shows repeated unsuccessful search behavior, such as asking "what do you call...", using repeated vague placeholders, or abandoning a needed word.
+- Do not treat the absence of clear word-finding behavior as evidence that the language sample is otherwise typical. If grammar is persistently fragmentary, semantic links are hard to follow, or propositional content is low, describe those observable features directly.
+- Separate surface intelligibility from propositional richness: a transcript can be noisy or hard to read while still conveying many scene elements, causal relations, or interpretive comments. In that case, say that propositional content is preserved or partly preserved, rather than low.
+- If the speaker conveys several key scene elements and the description remains organized and interpretable, emphasize preserved gist and relevant content even if surface wording is noisy.
+- Do not describe coherent extra comments about the window, house, setting, or speaker interpretation as tangential unless they clearly disrupt the picture description or replace relevant scene content.
+- If meaning can only be recovered from scattered keywords, or if recognizable scene content is embedded in long stretches of uninterpretable output without clear relations among actors and actions, explicitly note limited propositional content, reduced semantic clarity, and difficulty maintaining an interpretable message.
+- Do not use high-severity or diagnosis-triggering terms such as "severe", "profound", "aphasia", "neologistic", "jargon", "impairment", "collapse", "paraphasia", or "language breakdown."
+- If the transcript is mostly unintelligible or conveys very little propositional content, describe this as "limited intelligibility" or "limited propositional content" while still noting possible ASR contribution.
+- Mention both preserved abilities and observable difficulties, using mild/moderate wording unless the message is largely uninterpretable.
+
+Write one concise clinical-style paragraph of 90-125 words. Include:
+1. whether key Cookie Theft scene elements are conveyed,
+2. whether the message is organized and interpretable,
+3. the most salient fluency, repetition/self-correction, word search/vagueness, grammar, semantic clarity, and propositional content features.
+
+Transcript:
+{transcript}

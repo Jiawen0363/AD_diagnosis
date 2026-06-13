@@ -1,0 +1,11 @@
+baseline,embedding_model,task,model,fold,accuracy,precision,recall,f1,rmse,mae,pearson_r
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,classification,svc,0,0.8529411764705882,0.8529411764705882,0.8541666666666667,0.8528138528138528,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,classification,svc,1,0.7878787878787878,0.7969924812030075,0.7904411764705883,0.7870967741935484,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,classification,svc,2,0.8181818181818182,0.8180147058823529,0.8180147058823529,0.8180147058823529,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,classification,svc,3,0.6363636363636364,0.6428571428571428,0.6323529411764706,0.6278195488721805,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,classification,svc,4,0.8181818181818182,0.8198529411764706,0.8222222222222222,0.8180147058823529,,,
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,regression,ridge,0,,,,,5.5125696068669585,4.436662505654728,0.6482458099752383
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,regression,ridge,1,,,,,5.900520354860657,5.036826740611684,0.6166356124454919
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,regression,ridge,2,,,,,6.010063654794859,4.814056743275035,0.5511342590597632
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,regression,ridge,3,,,,,5.9056414412760585,5.245226310961174,0.5297298489572553
+embedding_openai_text-embedding-3-small_transcript_rationale_concat,text-embedding-3-small,regression,ridge,4,,,,,5.910688452134033,5.3567533204049775,0.6725857539442964

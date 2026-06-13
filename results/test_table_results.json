@@ -1,0 +1,128 @@
+[
+  {
+    "method": "TF-IDF (transcript)",
+    "embedding_model": null,
+    "classifier": "lr",
+    "regressor": "ridge",
+    "feature_type": "tfidf",
+    "classification": {
+      "accuracy": 0.8028169014084507,
+      "precision": 0.8027777777777778,
+      "recall": 0.8027777777777778,
+      "f1": 0.8027777777777778
+    },
+    "regression": {
+      "rmse": 5.169097552983801,
+      "mae": 4.169068001723511,
+      "pearson_r": 0.649308075083225
+    }
+  },
+  {
+    "method": "TF-IDF (transcript)",
+    "embedding_model": null,
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "tfidf",
+    "classification": {
+      "accuracy": 0.7887323943661971,
+      "precision": 0.7889507154213036,
+      "recall": 0.7884920634920636,
+      "f1": 0.7885646217986897
+    },
+    "regression": {
+      "rmse": 5.169097552983801,
+      "mae": 4.169068001723511,
+      "pearson_r": 0.649308075083225
+    }
+  },
+  {
+    "method": "Embedding (transcript)",
+    "embedding_model": "BAAI/bge-m3",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "embedding",
+    "classification": {
+      "accuracy": 0.7746478873239436,
+      "precision": 0.7780448717948718,
+      "recall": 0.7753968253968254,
+      "f1": 0.7742448330683624
+    },
+    "regression": {
+      "rmse": 5.751141298304127,
+      "mae": 4.837855728579239,
+      "pearson_r": 0.5292673291224168
+    }
+  },
+  {
+    "method": "Embedding (transcript)",
+    "embedding_model": "text-embedding-3-small",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "embedding",
+    "classification": {
+      "accuracy": 0.7183098591549296,
+      "precision": 0.7211538461538461,
+      "recall": 0.719047619047619,
+      "f1": 0.7178060413354531
+    },
+    "regression": {
+      "rmse": 5.654956511857264,
+      "mae": 4.70068528618611,
+      "pearson_r": 0.5667715893458455
+    }
+  },
+  {
+    "method": "Embedding (transcript)",
+    "embedding_model": "text-embedding-3-large",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "embedding",
+    "classification": {
+      "accuracy": 0.8028169014084507,
+      "precision": 0.8036565977742448,
+      "recall": 0.8031746031746032,
+      "f1": 0.8027777777777778
+    },
+    "regression": {
+      "rmse": 5.5829986005324,
+      "mae": 4.615565743244869,
+      "pearson_r": 0.5665173107682864
+    }
+  },
+  {
+    "method": "Embedding (transcript+rationale)",
+    "embedding_model": "text-embedding-3-small",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "embedding",
+    "classification": {
+      "accuracy": 0.7746478873239436,
+      "precision": 0.7780448717948718,
+      "recall": 0.7753968253968254,
+      "f1": 0.7742448330683624
+    },
+    "regression": {
+      "rmse": 5.612450602724333,
+      "mae": 4.735927219122228,
+      "pearson_r": 0.5698619827463001
+    }
+  },
+  {
+    "method": "Embedding (transcript+rationale)",
+    "embedding_model": "text-embedding-3-large",
+    "classifier": "svc",
+    "regressor": "ridge",
+    "feature_type": "embedding",
+    "classification": {
+      "accuracy": 0.7464788732394366,
+      "precision": 0.7472178060413355,
+      "recall": 0.7468253968253968,
+      "f1": 0.7464285714285714
+    },
+    "regression": {
+      "rmse": 5.642485237433419,
+      "mae": 4.652197152795926,
+      "pearson_r": 0.5373537781474879
+    }
+  }
+]

@@ -1,0 +1,19 @@
+You are analyzing a transcript from the Cookie Theft picture description task.
+
+Write an objective, evidence-based summary of observable language behavior in the transcript.
+
+Important constraints:
+- Do not infer a medical diagnosis, cognitive status, disease group, MMSE, AD, or Control label.
+- Treat the transcript as ASR output that may contain recognition noise. Attribute isolated odd words or sound substitutions to possible ASR noise when the surrounding message is clear.
+- Do not let "scene gist is preserved" by itself imply typical or intact language. If gist is preserved but the transcript still shows persistent fragmentation, repeated failed repairs, vague substitutions, or reduced propositional clarity, describe those limitations clearly.
+- Conversely, do not overstate pathology when the description is organized, relevant, and mostly interpretable despite surface transcription errors.
+- Avoid strongly diagnostic wording such as "aphasia" or "dementia." Use terms like "limited intelligibility," "persistent fragmentation," "reduced clarity," "frequent failed word searches," or "mostly preserved gist" when supported.
+- Mention both preserved abilities and observable difficulties.
+
+Write one concise clinical-style paragraph of 90-130 words. Include:
+1. whether key Cookie Theft scene elements are conveyed,
+2. whether the message remains organized and interpretable,
+3. the most salient fluency, repetition/self-correction, word-finding/vagueness, grammar, and semantic clarity features.
+
+Transcript:
+{transcript}

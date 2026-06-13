@@ -1,0 +1,76 @@
+{
+  "method": "disagreement_routing",
+  "rule": "if embedding_cls != tfidf_cls -> use assist model (concat); else -> use tfidf",
+  "route_regression": false,
+  "assist_source": "concat",
+  "default_source": "tfidf",
+  "embedding_model": "text-embedding-3-small",
+  "classifier": "svc",
+  "regressor": "ridge",
+  "train_size": 166,
+  "test_size": 71,
+  "classification": {
+    "accuracy": 0.7887323943661971,
+    "precision": 0.7906698564593302,
+    "recall": 0.7892857142857144,
+    "f1": 0.7885646217986897
+  },
+  "regression": {
+    "rmse": 5.169097552983801,
+    "mae": 4.169068001723511,
+    "pearson_r": 0.649308075083225
+  },
+  "routing": {
+    "n_total": 71,
+    "n_agree": 52,
+    "n_disagree": 19,
+    "accuracy_on_agree_subset": 0.8461538461538461,
+    "accuracy_on_disagree_subset": 0.631578947368421,
+    "rescues_vs_tfidf_on_disagree": 7,
+    "rescues_vs_embedding_on_disagree": 5,
+    "harmed_vs_tfidf_on_disagree": 7,
+    "assist_correct_on_disagree": 12,
+    "tfidf_correct_on_disagree": 12,
+    "embedding_correct_on_disagree": 7,
+    "both_wrong_on_disagree": 0
+  },
+  "baselines": {
+    "classification": {
+      "transcript_embedding": {
+        "accuracy": 0.7183098591549296,
+        "precision": 0.7211538461538461,
+        "recall": 0.719047619047619,
+        "f1": 0.7178060413354531
+      },
+      "transcript_tfidf": {
+        "accuracy": 0.7887323943661971,
+        "precision": 0.7889507154213036,
+        "recall": 0.7884920634920636,
+        "f1": 0.7885646217986897
+      },
+      "transcript_rationale_concat": {
+        "accuracy": 0.7746478873239436,
+        "precision": 0.7780448717948718,
+        "recall": 0.7753968253968254,
+        "f1": 0.7742448330683624
+      }
+    },
+    "regression": {
+      "transcript_embedding": {
+        "rmse": 5.654956511857264,
+        "mae": 4.70068528618611,
+        "pearson_r": 0.5667715893458455
+      },
+      "transcript_tfidf": {
+        "rmse": 5.169097552983801,
+        "mae": 4.169068001723511,
+        "pearson_r": 0.649308075083225
+      },
+      "transcript_rationale_concat": {
+        "rmse": 5.612450602724333,
+        "mae": 4.735927219122228,
+        "pearson_r": 0.5698619827463001
+      }
+    }
+  }
+}
