@@ -1,0 +1,51 @@
+{
+  "task": "ad_rationale_opd",
+  "fold_source": "results/folds.json classification splits",
+  "privileged_info": {
+    "train_split": "label + mmse_severity from groundtruth",
+    "val_split": "diagnosis=unknown, mmse_severity=unknown"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train_n": 132,
+      "val_n": 34,
+      "train_dir": "/data/jiawen/AD_diagnosis/data/opd/fold0",
+      "train_file": "/data/jiawen/AD_diagnosis/data/opd/fold0/train.jsonl",
+      "val_file": "/data/jiawen/AD_diagnosis/data/opd/fold0/val.jsonl"
+    },
+    {
+      "fold": 1,
+      "train_n": 133,
+      "val_n": 33,
+      "train_dir": "/data/jiawen/AD_diagnosis/data/opd/fold1",
+      "train_file": "/data/jiawen/AD_diagnosis/data/opd/fold1/train.jsonl",
+      "val_file": "/data/jiawen/AD_diagnosis/data/opd/fold1/val.jsonl"
+    },
+    {
+      "fold": 2,
+      "train_n": 133,
+      "val_n": 33,
+      "train_dir": "/data/jiawen/AD_diagnosis/data/opd/fold2",
+      "train_file": "/data/jiawen/AD_diagnosis/data/opd/fold2/train.jsonl",
+      "val_file": "/data/jiawen/AD_diagnosis/data/opd/fold2/val.jsonl"
+    },
+    {
+      "fold": 3,
+      "train_n": 133,
+      "val_n": 33,
+      "train_dir": "/data/jiawen/AD_diagnosis/data/opd/fold3",
+      "train_file": "/data/jiawen/AD_diagnosis/data/opd/fold3/train.jsonl",
+      "val_file": "/data/jiawen/AD_diagnosis/data/opd/fold3/val.jsonl"
+    },
+    {
+      "fold": 4,
+      "train_n": 133,
+      "val_n": 33,
+      "train_dir": "/data/jiawen/AD_diagnosis/data/opd/fold4",
+      "train_file": "/data/jiawen/AD_diagnosis/data/opd/fold4/train.jsonl",
+      "val_file": "/data/jiawen/AD_diagnosis/data/opd/fold4/val.jsonl"
+    }
+  ],
+  "num_train_subjects_total": 166
+}

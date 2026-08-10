@@ -1,0 +1,257 @@
+# This code is based on tatsu-lab/stanford_alpaca. Below is the original copyright:
+#
+#    Copyright 2023 Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+import os
+from typing import Dict
+
+import torch
+import torch.distributed as dist
+import transformers
+from transformers.trainer_pt_utils import LabelSmoother
+from datasets import load_dataset
+from conversation import SeparatorStyle, get_conv_template
+
+IGNORE_TOKEN_ID = LabelSmoother.ignore_index
+
+def rank0_print(*args):
+    if dist.get_rank() == 0:
+        print(*args)
+
+
+class Preprocessor(object):
+    def __init__(self, tokenizer: transformers.PreTrainedTokenizer,
+                 max_length: int = 1024, 
+                 template_name: str = "vicuna_v1.1",
+                 mask_dtype: str = "bool"):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.template_name = template_name
+        self.mask_dtype = mask_dtype
+    
+    def preprocess_by_round(self, source) -> Dict:
+        conv = get_conv_template(self.template_name)
+        roles = {"human": conv.roles[0], "gpt": conv.roles[1]}
+        
+        # Set the self-defined instruction, if applicable
+        if "instruction" in source and str(source["instruction"]).strip() != "":
+            conv.set_system_message(source["instruction"])
+        
+        source_convs = source["conversations"]
+        if roles[source_convs[0]["from"]] != conv.roles[0]:
+            # Skip the first one if it is not from human
+            source_convs = source_convs[1:]
+        
+        conv.messages = []
+        for j, sentence in enumerate(source_convs):
+            role = roles[sentence["from"]]
+            assert role == conv.roles[j % 2], f"{source}"
+            message = sentence["value"]
+            if message == '':
+                message = '<none>'
+            conv.append_message(role, message)
+        
+        # Apply prompt templates
+        prompt = conv.get_prompt()
+        
+        # Tokenize conversations
+        input_ids = self.tokenizer(
+            prompt,
+            return_tensors="pt",
+            padding="max_length",
+            max_length=self.max_length,
+            truncation=True,
+        ).input_ids[0]
+        target = input_ids.clone()
+
+        # Since some long conversations might be truncated, 
+        # use the decoded input_ids rather than the original conversations
+        conversation = self.tokenizer.decode(input_ids)
+
+        # Mask targets. The last one is always the target
+        assert conv.sep_style == SeparatorStyle.ADD_COLON_TWO
+        sep = conv.roles[1] + ": "
+        target_turn = conversation.split(sep)[-1].split(conv.sep2)[0] + conv.sep2
+        user_prompt = conversation.split(target_turn)[0]
+        user_prompt = user_prompt.rstrip()
+
+        # This is because the first token after tokenization is always <s>
+        instruction_len = len(self.tokenizer(user_prompt).input_ids) - 1
+        target_len = len(self.tokenizer(target_turn).input_ids) - 1
+        # Ignore the user instructions
+        target[:instruction_len - 1] = IGNORE_TOKEN_ID
+        target[instruction_len - 1 + target_len:] = IGNORE_TOKEN_ID
+
+        if False:  # Inspect and check the correctness of masking
+            z = target.clone()
+            z = torch.where(z == IGNORE_TOKEN_ID, tokenizer.unk_token_id, z)
+            rank0_print(tokenizer.decode(z))
+        
+        
+        if self.mask_dtype == "bool":
+            attention_mask = input_ids.ne(self.tokenizer.pad_token_id)
+        else:
+            attention_mask = input_ids.ne(self.tokenizer.pad_token_id).long()
+
+        ### For debugging
+        #print("conversation: ", conversation)
+        #print("user_prompt: ", user_prompt)
+        #print("target_turn: ", target_turn)
+        #print("input_ids: ", input_ids)
+        #print("target: ", target)
+        #print("attention_mask: ", attention_mask)
+        #input()
+
+        return dict(
+            input_ids=input_ids,
+            labels=target,
+            attention_mask=attention_mask,
+        )
+    
+    def preprocess_by_dialog(self, source) -> Dict:
+        conv = get_conv_template(self.template_name)
+        roles = {"human": conv.roles[0], "gpt": conv.roles[1]}
+        
+        # Set the self-defined instruction, if applicable
+        if "instruction" in source:
+            conv.set_system_message(source["instruction"])  
+        
+        source_convs = source["conversations"]
+        if roles[source_convs[0]["from"]] != conv.roles[0]:
+            # Skip the first one if it is not from human
+            source_convs = source_convs[1:]
+        
+        conv.messages = []
+        for j, sentence in enumerate(source_convs):
+            role = roles[sentence["from"]]
+            assert role == conv.roles[j % 2], f"{source}"
+            message = sentence["value"]
+            if message == '':
+                message = '<none>'
+            conv.append_message(role, message)
+        
+        # Apply prompt templates
+        prompt = conv.get_prompt()
+        
+        # Tokenize conversations
+        input_ids = self.tokenizer(
+            prompt,
+            return_tensors="pt",
+            padding="max_length",
+            max_length=self.max_length,
+            truncation=True,
+        ).input_ids[0]
+        target = input_ids.clone()
+
+        # Since some long conversations might be truncated, 
+        # use the decoded input_ids rather than the original conversations
+        conversation = self.tokenizer.decode(input_ids)
+
+        # Mask targets. Only compute loss on the assistant outputs.
+        assert conv.sep_style == SeparatorStyle.ADD_COLON_TWO
+        sep = conv.sep + conv.roles[1] + ": "
+        turns = conversation.split(conv.sep2)
+        cur_len = 1
+        target[:cur_len] = IGNORE_TOKEN_ID
+        
+        for i, turn in enumerate(turns):
+            if turn == "":
+                break  
+            # Note: the separator </s> is kept in the target
+            turn += conv.sep2
+
+            # This is because the first token after tokenization is always <s>
+            turn_len = len(self.tokenizer(turn).input_ids) - 1
+
+            parts = turn.split(sep)
+            if len(parts) != 2:
+                break
+            parts[0] += sep
+            # This is more robust no matter the tokenizer cleans tokenization spaces or not
+            parts[0] = parts[0].rstrip()
+
+            # This is because the first token after tokenization is always <s>
+            instruction_len = len(self.tokenizer(parts[0]).input_ids) - 1
+
+            # Ignore the user instructions
+            target[cur_len: cur_len + instruction_len - 1] = IGNORE_TOKEN_ID
+            cur_len += turn_len - 1
+        
+        if cur_len < self.max_length:
+            target[cur_len:] = IGNORE_TOKEN_ID
+
+        if False:  # Inspect and check the correctness of masking
+            z = target.clone()
+            z = torch.where(z == IGNORE_TOKEN_ID, tokenizer.unk_token_id, z)
+            rank0_print(tokenizer.decode(z))
+        
+        if self.mask_dtype == "bool":
+            attention_mask = input_ids.ne(self.tokenizer.pad_token_id)
+        else:
+            attention_mask = input_ids.ne(self.tokenizer.pad_token_id).long()
+
+        ### For debugging
+        #print("conversation: ", conversation)
+        #print("user_prompt: ", user_prompt)
+        #print("target_turn: ", target_turn)
+        #print("input_ids: ", input_ids)
+        #print("target: ", target)
+        #print("attention_mask: ", attention_mask)
+        #input()
+
+        return dict(
+            input_ids=input_ids,
+            labels=target,
+            attention_mask=attention_mask,
+        )
+
+    def preprocess(self, source) -> Dict:
+        if self.template_name == "alpaca":
+            return self.preprocess_by_round(source)
+        else:
+            return self.preprocess_by_dialog(source)
+        
+
+def make_supervised_data_module(
+    tokenizer: transformers.PreTrainedTokenizer, data_args
+) -> Dict:
+    """Make dataset and collator for supervised fine-tuning."""
+    
+    dataset_cls = Preprocessor(tokenizer=tokenizer,
+                               max_length=data_args.cutoff_len,
+                               template_name=data_args.template_name,
+                               mask_dtype=data_args.mask_dtype)
+
+    rank0_print(f"Loading training data from {data_args.data_path}")
+    cache_dir = os.path.join(data_args.cache_path, "caches_base")
+    if not os.path.exists(cache_dir):
+        os.makedirs(cache_dir)
+    data_files = {"train": data_args.data_path}
+
+    if data_args.eval_data_path:
+        rank0_print(f"Loading eval data from {data_args.eval_data_path}")
+        data_files["eval"] = data_args.eval_data_path
+        
+        dataset = load_dataset("json", data_files=data_files, cache_dir=cache_dir)
+
+        # num_proc > 1 will speed up the tokenization
+        train_dataset = dataset["train"].map(dataset_cls.preprocess, num_proc=data_args.num_proc)
+        eval_dataset = dataset["eval"].map(dataset_cls.preprocess, num_proc=data_args.num_proc)
+    else:
+        dataset = load_dataset("json", data_files=data_files, cache_dir=cache_dir)
+        # num_proc > 1 will speed up the tokenization
+        train_dataset = dataset["train"].map(dataset_cls.preprocess, num_proc=data_args.num_proc)
+        eval_dataset = None
+
+    return dict(train_dataset=train_dataset, eval_dataset=eval_dataset)

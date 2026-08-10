@@ -1,0 +1,23 @@
+{
+  "task": "transcript + instruction -> deepseek language rationale",
+  "format": "fastchat",
+  "fields": {
+    "instruction": "rationale task prompt (same as prompt/rationale_prompt.txt without transcript)",
+    "conversations[0]": "human turn with transcript",
+    "conversations[1]": "gpt turn with deepseek rationale"
+  },
+  "sft_file": "rationale_sft_train.json",
+  "sft_samples": {
+    "num_samples": 237,
+    "ad": 122,
+    "control": 115,
+    "rationale_words_mean": 119.5,
+    "rationale_words_min": 95,
+    "rationale_words_max": 156,
+    "transcript_words_mean": 111.0
+  },
+  "notes": [
+    "SFT uses all 237 samples (train+test): task exposes no diagnosis/MMSE labels.",
+    "Qwen/Llama share the same JSON; choose template_name at finetune time."
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "fold": 0,
+    "backbone_cls_f1": 0.8823529411764706,
+    "backbone_cls_acc": 0.8823529411764706,
+    "backbone_reg_rmse": 5.664393739623888,
+    "backbone_reg_r": 0.598442023548961,
+    "direct_sft_cls_f1": 0.8823529411764706,
+    "direct_sft_cls_acc": 0.8823529411764706,
+    "direct_sft_reg_rmse": 5.584301285556952,
+    "direct_sft_reg_r": 0.6453357335436384
+  },
+  {
+    "fold": 1,
+    "backbone_cls_f1": 0.8180147058823529,
+    "backbone_cls_acc": 0.8181818181818182,
+    "backbone_reg_rmse": 5.8247653391329015,
+    "backbone_reg_r": 0.667297235585362,
+    "direct_sft_cls_f1": 0.7870967741935484,
+    "direct_sft_cls_acc": 0.7878787878787878,
+    "direct_sft_reg_rmse": 5.57014598940204,
+    "direct_sft_reg_r": 0.722801101830201
+  },
+  {
+    "fold": 2,
+    "backbone_cls_f1": 0.8462255358807083,
+    "backbone_cls_acc": 0.8484848484848485,
+    "backbone_reg_rmse": 6.172920141386059,
+    "backbone_reg_r": 0.48163739854990356,
+    "direct_sft_cls_f1": 0.8433048433048433,
+    "direct_sft_cls_acc": 0.8484848484848485,
+    "direct_sft_reg_rmse": 5.871277195511836,
+    "direct_sft_reg_r": 0.5669994176745105
+  },
+  {
+    "fold": 3,
+    "backbone_cls_f1": 0.723205964585275,
+    "backbone_cls_acc": 0.7272727272727273,
+    "backbone_reg_rmse": 5.897455943625521,
+    "backbone_reg_r": 0.520013357509212,
+    "direct_sft_cls_f1": 0.6944444444444444,
+    "direct_sft_cls_acc": 0.696969696969697,
+    "direct_sft_reg_rmse": 5.694307708436575,
+    "direct_sft_reg_r": 0.5859174992684283
+  },
+  {
+    "fold": 4,
+    "backbone_cls_f1": 0.6944444444444444,
+    "backbone_cls_acc": 0.696969696969697,
+    "backbone_reg_rmse": 5.873186302787643,
+    "backbone_reg_r": 0.6794538069733346,
+    "direct_sft_cls_f1": 0.7272727272727273,
+    "direct_sft_cls_acc": 0.7272727272727273,
+    "direct_sft_reg_rmse": 5.719474890306483,
+    "direct_sft_reg_r": 0.722967974627422
+  },
+  {
+    "fold": "mean",
+    "backbone_cls_f1": 0.7928487183938502,
+    "backbone_cls_acc": 0.7946524064171123,
+    "backbone_reg_rmse": 5.886544293311202,
+    "backbone_reg_r": 0.5893687644333546,
+    "direct_sft_cls_f1": 0.7868943460784068,
+    "direct_sft_cls_acc": 0.7885918003565063,
+    "direct_sft_reg_rmse": 5.687901413842778,
+    "direct_sft_reg_r": 0.64880434538884
+  }
+]

@@ -85,6 +85,15 @@ def get_xy(df: pd.DataFrame, text_col: str = "text"):
     return texts, y_cls, y_reg, subject_ids
 
 
+def rationale_json_name(split: str, suffix: str = "") -> str:
+    """Return rationale JSON filename for ad/control/test split."""
+    base = f"{split}_s2t_wav2vec_rationale"
+    if not suffix:
+        return f"{base}.json"
+    normalized = suffix if suffix.startswith("_") else f"_{suffix}"
+    return f"{base}{normalized}.json"
+
+
 def load_rationale_json(path: Path) -> pd.DataFrame:
     records = json.loads(path.read_text(encoding="utf-8"))
     df = pd.DataFrame(records)
@@ -131,6 +140,7 @@ def load_train_data_with_rationale(
     data_dir: Path | None = None,
     rationale_dir: Path | None = None,
     *,
+    rationale_suffix: str = "",
     with_demographics: bool = False,
     with_demo_rationale: bool = False,
 ) -> pd.DataFrame:
@@ -139,8 +149,12 @@ def load_train_data_with_rationale(
 
     train = load_train_data(data_dir, with_demographics=with_demographics)
     rationale_frames = [
-        load_rationale_json(rationale_dir / "ad_s2t_wav2vec_rationale.json"),
-        load_rationale_json(rationale_dir / "control_s2t_wav2vec_rationale.json"),
+        load_rationale_json(
+            rationale_dir / rationale_json_name("ad", rationale_suffix)
+        ),
+        load_rationale_json(
+            rationale_dir / rationale_json_name("control", rationale_suffix)
+        ),
     ]
     rationales = pd.concat(rationale_frames, ignore_index=True)
     merged = train.merge(rationales, on="subject_id", how="left", validate="one_to_one")
@@ -163,6 +177,7 @@ def load_test_data_with_rationale(
     data_dir: Path | None = None,
     rationale_dir: Path | None = None,
     *,
+    rationale_suffix: str = "",
     with_demographics: bool = False,
     with_demo_rationale: bool = False,
 ) -> pd.DataFrame:
@@ -170,7 +185,9 @@ def load_test_data_with_rationale(
     rationale_dir = rationale_dir or data_dir / "rationale"
 
     test = load_test_data(data_dir, with_demographics=with_demographics)
-    rationales = load_rationale_json(rationale_dir / "test_s2t_wav2vec_rationale.json")
+    rationales = load_rationale_json(
+        rationale_dir / rationale_json_name("test", rationale_suffix)
+    )
     merged = test.merge(rationales, on="subject_id", how="left", validate="one_to_one")
 
     missing = merged["rationale_text"].isna().sum()
